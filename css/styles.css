@@ -1,0 +1,15 @@
+.navbar {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.navbar-position {
+    position: absolute;
+    right: 50px;
+} /* FIX NAVBAR COLLAPSE BEHAVIOUR - it's currently affected by this */
+
+.active {
+    font-weight: 500;
+    text-decoration: underline black dashed;
+    text-underline-offset: 4px;
+}
