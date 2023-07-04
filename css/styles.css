@@ -43,7 +43,18 @@
 /* ~~~~~~~~~~~~ OUR MEETINGS ~~~~~~~~~~~~ */
 
 #meetings {
-    
+    background-color: white;
+}
+
+#meetings-wrapper {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 25px;
+}
+
+.meetings-placeholder {
+    max-width: 300px;
 }
 
 
