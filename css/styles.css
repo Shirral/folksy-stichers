@@ -24,5 +24,24 @@
 #welcome {
     background-color: #FDF6B1;
 }
+
+/* ~~~~~~~~~~~~ GALLERY ~~~~~~~~~~~~ */
     
+#gallery {
+    background-color: white;
+}
+
+#placeholder {
+    max-height: 800px;
+    transform: rotate(90deg);
+}
     
+
+
+
+/* ~~~~~~~~~~~~ GENERAL FUNCTIONALITY ~~~~~~~~~~~~ */
+
+.center {
+    margin: auto;
+    width: 50%;
+  }
