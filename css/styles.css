@@ -36,7 +36,15 @@
     transform: rotate(90deg);
 }
     
+#gallery-text {
+    background-color: #F8B26C;
+}
 
+/* ~~~~~~~~~~~~ OUR MEETINGS ~~~~~~~~~~~~ */
+
+#meetings {
+    
+}
 
 
 /* ~~~~~~~~~~~~ GENERAL FUNCTIONALITY ~~~~~~~~~~~~ */
