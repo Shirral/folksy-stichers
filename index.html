@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
@@ -40,8 +41,16 @@
             <p>Join us in a relaxed and informal atmosphere where threads come alive and creativity thrives. Together, we'll hone our skills, forge friendships, and nurture our mental well-being through the art of embroidery. Let's stitch together, one thread at a time, and create beautiful works of art while finding solace and joy in the rhythmic dance of the needle. Welcome to our vibrant community!</p>
         </section>
         <section id="gallery">
-            <div class="center">
-                <img src="assets/placeholder.jpg"  id="placeholder" alt="Placeholder image...">
+            <div class="carousel" data-flickity='{ "wrapAround": true, "contain": true }'>
+                <div class="carousel-cell">
+                    <img src="assets/placeholder.jpg">
+                </div>
+                <div class="carousel-cell">
+                    <img src="assets/placeholder2.jpg">
+                </div>
+                <div class="carousel-cell">
+                    <img src="assets/placeholder3.png">
+                </div>
             </div>
             <div class="text-center" id="gallery-text">
                 <p><strong>Embroidery can be a great way to do something rewarding, meet new people, and even start a business!</strong></p>
@@ -76,9 +85,13 @@
                 <button class="text-uppercase"><a href="#">get in touch</a></button>
             </div>
         </section>
+        <section>
+            
+        </section>
+            
         
     
-        
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/ec0f2e0ce5.js" crossorigin="anonymous"></script>
     </body>
