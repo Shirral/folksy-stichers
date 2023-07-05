@@ -39,7 +39,7 @@
 }
 
 #hero-text {
-    margin-top: 22%;
+    margin-top: 25%;
 
     animation-name: hero-zoom;
     animation-duration: 4s;
@@ -163,7 +163,38 @@ img {
     height: auto;
 }
 
+/* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
 
+@media screen and (max-width: 1130px) {
+    #hero-text {
+        margin: 30% 40px 0;
+    }
 
+    #hero-text h2 {
+        margin: 20px 0;
+    }
 
+}
+
+@media screen and (max-width: 850px) {
+    #hero-text {
+        margin: 40% 40px 0;
+    }
+
+    #hero-text h2 {
+        margin: 30px 0;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    #hero-text {
+        margin: 60% 40px 0;
+    }
+
+    #hero-text h2 {
+        margin: 20px 0;
+    }
+
+}
 
