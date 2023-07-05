@@ -21,7 +21,14 @@
     padding-left: 10px;
 }
 
+/* ~~~~~~~~~~~~ HERO IMAGE ~~~~~~~~~~~~ */
 
+.hero-wrapper {
+    max-height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 
 /* ~~~~~~~~~~~~ WELCOME ~~~~~~~~~~~~ */
