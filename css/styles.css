@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Slab:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /* ~~~~~~~~~~~~ NAVBAR ~~~~~~~~~~~~ */
 
 .navbar {
@@ -18,6 +20,9 @@
 .logo {
     padding-left: 10px;
 }
+
+
+
 
 /* ~~~~~~~~~~~~ WELCOME ~~~~~~~~~~~~ */
 
@@ -44,7 +49,7 @@
 /* ~~~ style code modified to fit in with this project better ~~~ */
 
 .carousel {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
