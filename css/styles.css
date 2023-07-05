@@ -1,4 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Slab:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Slab:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap');
+
+/* ~~~~~~~~~~~~ GENERAL FUNCTIONALITY ~~~~~~~~~~~~ */
+
+p {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
 
 /* ~~~~~~~~~~~~ NAVBAR ~~~~~~~~~~~~ */
 
@@ -39,7 +57,8 @@
 }
 
 #hero-text {
-    margin-top: 25%;
+    margin-top: 20%;
+    text-shadow: 2px 2px 5px black;
 
     animation-name: hero-zoom;
     animation-duration: 4s;
@@ -55,16 +74,22 @@
     }
 }
 
-#hero-text h1{
-    
+#hero-text h1 {  
     line-height: 70px;
-    font-size: 70px;
-
-    
+    font-size: 100px;
+    font-family: 'Cookie', cursive;
+    margin: 20px 0 30px 0; 
 }
 
+#hero-text h2 {  
+    font-size: 50px;   
+    font-family: 'Cookie', cursive;
+    margin: 0; 
+}
 
-
+#hero-text p {  
+    margin-bottom: 10px; 
+}
 
 /* ~~~~~~~~~~~~ WELCOME ~~~~~~~~~~~~ */
 
@@ -150,27 +175,14 @@
     max-width: 300px;
 }
 
-
-/* ~~~~~~~~~~~~ GENERAL FUNCTIONALITY ~~~~~~~~~~~~ */
-
-.center {
-    margin: auto;
-    width: 50%;
-  }
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1030px) {
     #hero-text {
         margin: 30% 40px 0;
     }
 
-    #hero-text h2 {
+    #hero-text h1 {
         margin: 20px 0;
     }
 
@@ -178,22 +190,23 @@ img {
 
 @media screen and (max-width: 850px) {
     #hero-text {
-        margin: 40% 40px 0;
+        margin: 40% 60px 0;
     }
 
-    #hero-text h2 {
-        margin: 30px 0;
+    #hero-text h1 {
+        margin: 10px 0;
+        font-size: 80px;
     }
 
 }
 
 @media screen and (max-width: 550px) {
     #hero-text {
-        margin: 60% 40px 0;
+        margin: 50% 40px 0;
     }
 
-    #hero-text h2 {
-        margin: 20px 0;
+    #hero-text h1 {
+        margin: 5px 0;
     }
 
 }
