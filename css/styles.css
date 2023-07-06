@@ -195,7 +195,6 @@ img {
 }
 
 #meetings-host {
-    margin-top: 43px;
     padding: 30px 10%;
 }
 
@@ -218,7 +217,8 @@ img {
 
 .meetings-griditem {
     height: 400px;
-    background: url("../assets/placeholder.jpg") no-repeat center;
+    background: url("../assets/placeholder.jpg") no-repeat center center;
+    border-radius: 10%;
 }
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
