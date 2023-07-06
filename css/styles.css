@@ -29,6 +29,11 @@ img {
     width: 50%;
 }
 
+.wrapper {
+    width: 70%;
+    margin: auto;
+}
+
 
 /* ~~~~~~~~~~~~ NAVBAR ~~~~~~~~~~~~ */
 
@@ -209,8 +214,16 @@ img {
     margin-bottom: 25px;
 }
 
-.meetings-placeholder {
-    max-width: 300px;
+
+
+#meetings-grid {
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 5%;
 }
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
