@@ -216,6 +216,11 @@ img {
     column-gap: 5%;
 }
 
+.meetings-griditem {
+    height: 400px;
+    background: url("../assets/placeholder.jpg") no-repeat center;
+}
+
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
 
 /* hero-image section */
