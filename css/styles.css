@@ -181,12 +181,12 @@ img {
     padding: 30px 10%;
 }
 
-#meetings-text h1, p{
+#meetings-text h1, p {
     color: white;
 }
 
 #meetings-text p a {
-    color: white;
+    color: #FDF6B1;
 }
 
 #meetings-wrapper {
@@ -196,11 +196,26 @@ img {
     gap: 25px;
 }
 
+#meetings-host {
+    margin-top: 43px;
+    padding: 30px 10%;
+}
+
+#meetings-host h2 {
+    color: #207178;
+}
+
+#meetings-host p {
+    margin-bottom: 25px;
+}
+
 .meetings-placeholder {
     max-width: 300px;
 }
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
+
+/* hero-image section */
 
 @media screen and (max-width: 1030px) {
     #hero-text {
