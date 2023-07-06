@@ -218,7 +218,16 @@ img {
 .meetings-griditem {
     height: 400px;
     background: url("../assets/placeholder.jpg") no-repeat center center;
-    border-radius: 10%;
+    border-radius: 40px;
+    display: grid;
+    align-items: end;
+    overflow: hidden;
+}
+
+.meetings-griditem-infobox {
+    height: 35%;
+    background-color: black;
+    
 }
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
