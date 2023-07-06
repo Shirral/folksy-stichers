@@ -14,6 +14,11 @@ h1 {
     color: #207178;
 }
 
+h2 {
+    font-family: 'Cookie', cursive;
+    color: #207178;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -110,23 +115,8 @@ img {
 
 #welcome p {
     margin-bottom: 5px;
+    color: #207178;
 }
-
-/* ~~~~~~~~~~~~ GALLERY ~~~~~~~~~~~~ */
-    
-#gallery {
-    background-color: white;
-}
-    
-#gallery-text {
-    margin-top: 43px;
-    background-color: #F8B26C;
-}
-
-#gallery-text p {
-    margin-bottom: 10px;
-}
-
 
 /* ~~~ FLICKITY CAROUSEL - from  https://flickity.metafizzy.co/ ~~~ */
 /* ~~~ style code modified to fit in with this project better ~~~ */
@@ -150,7 +140,7 @@ img {
     background: #207178;
   }
   .flickity-button:hover {
-    background: #F8B26C;
+    background: #F29552;
   }
   
   .flickity-prev-next-button {
@@ -183,7 +173,20 @@ img {
 /* ~~~~~~~~~~~~ OUR MEETINGS ~~~~~~~~~~~~ */
 
 #meetings {
-    background-color: white;
+    background-color: #F29552;
+}
+
+#meetings-text {
+    margin-top: 43px;
+    padding: 30px 10%;
+}
+
+#meetings-text h1, p{
+    color: white;
+}
+
+#meetings-text p a {
+    color: white;
 }
 
 #meetings-wrapper {
