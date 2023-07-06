@@ -6,6 +6,7 @@ p {
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 400;
     color: #207178;
+    margin: 0;
 }
 
 h1 {
@@ -107,27 +108,33 @@ img {
     padding: 30px 10%;
 }
 
+#welcome p {
+    margin-bottom: 5px;
+}
+
 /* ~~~~~~~~~~~~ GALLERY ~~~~~~~~~~~~ */
     
 #gallery {
     background-color: white;
 }
-
-#placeholder {
-    max-height: 800px;
-    transform: rotate(90deg);
-}
     
 #gallery-text {
+    margin-top: 70px;
     background-color: #F8B26C;
 }
+
+#gallery-text p {
+    
+}
+
 
 /* ~~~ FLICKITY CAROUSEL - from  https://flickity.metafizzy.co/ ~~~ */
 /* ~~~ style code modified to fit in with this project better ~~~ */
 
 .carousel {
-    width: 60%;
+    width: 50%;
     margin: auto;
+    border-radius: 2%;
 }
 
 .carousel-cell {
@@ -135,7 +142,7 @@ img {
     height: 600px; /* height of carousel */
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
 }
 
 /* navigation butons - smaller, dark, rounded square */
