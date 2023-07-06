@@ -119,12 +119,12 @@ img {
 }
     
 #gallery-text {
-    margin-top: 70px;
+    margin-top: 43px;
     background-color: #F8B26C;
 }
 
 #gallery-text p {
-    
+    margin-bottom: 10px;
 }
 
 
@@ -132,9 +132,8 @@ img {
 /* ~~~ style code modified to fit in with this project better ~~~ */
 
 .carousel {
-    width: 50%;
+    width: 55%;
     margin: auto;
-    border-radius: 2%;
 }
 
 .carousel-cell {
@@ -142,16 +141,16 @@ img {
     height: 600px; /* height of carousel */
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;    
 }
 
 /* navigation butons - smaller, dark, rounded square */
 
 .flickity-button {
-    background: #333;
+    background: #207178;
   }
   .flickity-button:hover {
-    background: #F90;
+    background: #F8B26C;
   }
   
   .flickity-prev-next-button {
@@ -173,6 +172,12 @@ img {
   .flickity-prev-next-button.next {
     right: -40px;
   }
+
+  /* dots - selected */
+
+  .flickity-page-dots .dot {
+    background: #207178;
+}
 
 
 /* ~~~~~~~~~~~~ OUR MEETINGS ~~~~~~~~~~~~ */
