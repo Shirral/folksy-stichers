@@ -237,15 +237,32 @@ img {
     height: 400px;
     background: url("../assets/placeholder.jpg") no-repeat center center;
     border-radius: 40px;
+    border: 3px solid white;
     display: grid;
     align-items: end;
     overflow: hidden;
 }
 
 .meetings-griditem-infobox {
-    height: 50%;
-    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 1),rgba(0, 0, 0, 1),rgba(0, 0, 0, 1));
-    padding: 23% 3% 3%;
+    height: 55%;
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85));
+    padding: 27% 3% 3%;
+}
+
+#cross {
+    background: url("../assets/cross.jpg") no-repeat center center;
+}
+
+#edit {
+    background: url("../assets/edit.jpg") no-repeat center center;
+}
+
+#florals {
+    background: url("../assets/florals.jpg") no-repeat center center;
+}
+
+#pets {
+    background: url("../assets/pets.jpg") no-repeat center center;
 }
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
