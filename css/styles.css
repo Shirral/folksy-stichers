@@ -139,12 +139,12 @@ img {
 
 /* ~~~~~~~~~~~~ WELCOME ~~~~~~~~~~~~ */
 
-#welcome {
+.welcome {
     background-color: white;
     padding: 30px 10%;
 }
 
-#welcome p {
+.welcome p {
     margin-bottom: 5px;
     color: #207178;
 }
