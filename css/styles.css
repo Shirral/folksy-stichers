@@ -345,6 +345,10 @@ footer a {
 
 /* stitches section */
 
+#stitches {
+    padding-bottom: 90px;
+}
+
 #stitches p {
     padding-bottom: 0.5em;
 }
@@ -356,6 +360,7 @@ footer a {
     justify-content: space-around;
     align-items: center;
     gap: 5%;
+    margin-bottom: 50px;
 }
 
 .stitches-griditem {
