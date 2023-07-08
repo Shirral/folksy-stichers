@@ -42,11 +42,6 @@ img {
     height: auto;
 }
 
-.center {
-    margin: auto;
-    width: 50%;
-}
-
 .wrapper {
     width: 70%;
     margin: auto;
@@ -303,6 +298,15 @@ img {
     font-size: medium;
     padding: 7px;
 }
+
+/* ~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~ */
+
+footer {
+    background-color: #207178;
+    text-align: center;
+     
+}
+
 
 
 
