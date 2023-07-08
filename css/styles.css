@@ -307,7 +307,14 @@ footer {
      
 }
 
-
+#socials {
+    background-color: aqua;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+   justify-content: center;
+   gap: 30%;
+}
 
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
