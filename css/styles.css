@@ -212,18 +212,6 @@ img {
     color: #FDF6B1;
 }
 
-#meetings-host {
-    padding: 30px 10%;
-}
-
-#meetings-host h2 {
-    color: #207178;
-}
-
-#meetings-host p {
-    margin-bottom: 25px;
-}
-
 #meetings-grid {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -264,7 +252,6 @@ img {
 }
 
 .meetings-griditem-infobox-icons {
-    
     text-align: end;
     border-right: 2px white solid;
     border-radius: 2px;
@@ -291,6 +278,34 @@ img {
 #pets {
     background: url("../assets/pets.jpg") no-repeat center center;
 }
+
+#meetings-host {
+    padding: 30px 10%;
+}
+
+#meetings-host h2 {
+    color: #207178;
+}
+
+#meetings-host p {
+    margin-bottom: 25px;
+}
+
+#meetings-host button {
+    background: none;
+    border: #207178 solid 2px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#meetings-host button a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    padding: 7px;
+}
+
+
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
 
