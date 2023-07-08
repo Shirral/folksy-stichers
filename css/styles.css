@@ -304,16 +304,17 @@ img {
 footer {
     background-color: #207178;
     text-align: center;
-     
+    padding: 0.5rem 0;
+    font-size: small;
 }
 
 #socials {
-    background-color: aqua;
-    width: 30%;
+    width: 20%;
     margin: 0 auto;
     display: flex;
-   justify-content: center;
-   gap: 30%;
+    justify-content: center;
+    gap: 30%;
+    font-size: 25px;
 }
 
 
