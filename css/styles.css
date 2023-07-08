@@ -249,6 +249,19 @@ img {
     padding: 30% 3% 3%;
 }
 
+.meetings-griditem-infobox-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.meetings-gridinfo-infobox-icons {
+    
+}
+
+.meetings-gridinfo-infobox-text {
+    
+}
+
 #cross {
     background: url("../assets/cross.jpg") no-repeat center center;
 }
