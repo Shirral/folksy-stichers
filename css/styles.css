@@ -87,12 +87,15 @@ img {
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/main.jpg") no-repeat center 70%;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/main.jpg") no-repeat center 70%;
 }
 
 .hero-text {
@@ -330,6 +333,12 @@ footer a {
     justify-content: center;
     gap: 30%;
     font-size: 25px;
+}
+
+/* ~~~~~~~~~~~~ OUR-STITCHES HERO IMAGE ~~~~~~~~~~~~ */
+
+#stitches {
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/stitches.jpg") no-repeat center 70%;
 }
 
 
