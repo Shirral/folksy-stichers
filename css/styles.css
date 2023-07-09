@@ -231,7 +231,6 @@ img {
 
 .meetings-griditem {
     height: 400px;
-    background: url("../assets/placeholder.jpg") no-repeat center center;
     border-radius: 40px;
     border: 3px solid white;
     display: grid;
