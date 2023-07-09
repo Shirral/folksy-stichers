@@ -418,6 +418,14 @@ footer a {
     background: url("../assets/wheel.jpg") no-repeat center center;
 }
 
+/* ~~~~~~~~~~~~ JOIN-US ~~~~~~~~~~~~ */
+
+/* hero-image section */
+
+#join-us-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/join33.jpg") no-repeat center 70%;
+}
+
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
 
 /* hero-image section */
