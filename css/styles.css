@@ -389,6 +389,26 @@ footer a {
     background: url("../assets/running.jpg") no-repeat center center;
 }
 
+#back {
+    background: url("../assets/back.jpg") no-repeat center center;
+}
+
+#satin {
+    background: url("../assets/satin.jpg") no-repeat center center;
+}
+
+#cross {
+    background: url("../assets/cross11.jpg") no-repeat center center;
+}
+
+#lazy {
+    background: url("../assets/lazydaisy.jpg") no-repeat center center;
+}
+
+#wheel {
+    background: url("../assets/wheel.jpg") no-repeat center center;
+}
+
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
 
 /* hero-image section */
