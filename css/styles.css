@@ -390,10 +390,6 @@ footer a {
     text-shadow: 1px 1px 5px black;
 }
 
-.divlink {
-    display: block;
-}
-
 #running {
     background: url("../assets/running.jpg") no-repeat center center;
 }
