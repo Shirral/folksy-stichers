@@ -48,14 +48,51 @@
                 <h1>Henlooooo</h1>
                 <p>Let's keep in touch okay, <a href="https://www.facebook.com/">here's our fb group</a> we post cool stuff here like what we're working on and cool new events</p>
                 <p>And also here's a form you can fill it to get our newsletter, we put cool stuff in it like upcoming special meetings and coolest projects of our members and inspiration and project ideas etc</p>
-                <div class="form">
-                    <form>
-                        Here be a form
+                <div>
+                    <form class="form">
+                        <fieldset>
+                            <div class="div">
+                                <label for="name">Your name:</label><br>
+                                <input type="text" id="name" name="name"><br>
+                            </div>
+                            <div>
+                                <label for="email">Your email address:</label><br>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <p>It would be great to know where you are on your embroidery journey so we can send you skill-appropriate project ideas! How would you describe yourself?</p>
+                            <input type="radio" id="beginner" name="skill-level" value="Beginner">
+                            <label for="beginner">I'm a beginner</label><br>
+                            <input type="radio" id="intermediate" name="skill-level" value="Intermediate">
+                            <label for="intermediate">I've been doing embroidery for a while, but I'm not an expert</label><br>
+                            <input type="radio" id="advanced" name="skill-level" value="Advanced">
+                            <label for="advanced">I'm fluent in Stitches and can tackle any project with confidence!</label>
+                        </fieldset>
+                        <fieldset>
+                            <p>What are your main motivators for embroidering? You can choose as many options as you like!</p>
+                            <input type="checkbox" id="like-it" name="like-it" value="Liking it">
+                            <label for="like-it">I just really like it</label><br>
+                            <input type="checkbox" id="relaxation" name="relaxation" value="Relaxation">
+                            <label for="relaxation">It helps me relax</label><br>
+                            <input type="checkbox" id="social" name="social" value="Social activity">
+                            <label for="social">It's a nice social activity, I like to do it with others</label>
+                            <input type="checkbox" id="pretty-things" name="pretty-things" value="Making pretty things">
+                            <label for="pretty-things">It lets me create beautiful things</label><br>
+                            <input type="checkbox" id="creativity" name="creativity" value="Creativity">
+                            <label for="creativity">It's an outlet for creativity, I love making my own designs</label><br>
+                            <input type="checkbox" id="gifts" name="gifts" value="Making gifts">
+                            <label for="gifts">It allows me to make lovely gifts for friends and family</label><br>
+                            <input type="checkbox" id="business" name="business" value="Business">
+                            <label for="vehicle2">It's my profession / side hustle, I have an embroidery business</label><br>
+                        </fieldset>
+                        <input type="submit" value="Submit">
+                        
                     </form>
                 </div>
             </div>
         </section>
-        <section id="email" class="welcome text-center">
+        <section id="mail-us" class="welcome text-center">
             <h2>Emaziiiiil</h2>
             <p>Oi if you wanna ask as some qs or have suggestions or ideas then you can write us an email!</p>
             <p><a href="mailto:henlo@ourcoolclub.com"><i class="fa-solid fa-envelope"></i> henlo@ourcoolckub.com</a></p>

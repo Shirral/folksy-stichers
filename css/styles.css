@@ -422,6 +422,12 @@ footer a {
     background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/join33.jpg") no-repeat center 70%;
 }
 
+/* form section */
+
+.form {
+    display: grid;
+}
+
 /* Google Maps section */
 
 iframe {
