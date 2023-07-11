@@ -51,11 +51,11 @@
                 <div>
                     <form class="form">
                         <fieldset>
-                            <div class="div">
+                            <div class="form-text-field">
                                 <label for="name">Your name: </label>
-                                <input type="text" id="name" name="name"><br>
+                                <input type="text" id="name" name="name">
                             </div>
-                            <div>
+                            <div class="form-text-field">
                                 <label for="email">Your email address: </label>
                                 <input type="email" id="email" name="email">
                             </div>
@@ -69,22 +69,42 @@
                             <input type="radio" id="advanced" name="skill-level" value="Advanced">
                             <label for="advanced">I'm fluent in Stitches and can tackle any project with confidence!</label>
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="form-checkboxes-wrapper">
                             <p>What are your main motivators for embroidering? You can choose as many options as you like!</p>
-                            <input type="checkbox" id="like-it" name="like-it" value="Liking it">
-                            <label for="like-it">I just really like it</label><br>
-                            <input type="checkbox" id="relaxation" name="relaxation" value="Relaxation">
-                            <label for="relaxation">It helps me relax</label><br>
-                            <input type="checkbox" id="social" name="social" value="Social activity">
-                            <label for="social">It's a nice social activity, I like to do it with others</label>
-                            <input type="checkbox" id="pretty-things" name="pretty-things" value="Making pretty things">
-                            <label for="pretty-things">It lets me create beautiful things</label><br>
-                            <input type="checkbox" id="creativity" name="creativity" value="Creativity">
-                            <label for="creativity">It's an outlet for creativity, I love making my own designs</label><br>
-                            <input type="checkbox" id="gifts" name="gifts" value="Making gifts">
-                            <label for="gifts">It allows me to make lovely gifts for friends and family</label><br>
-                            <input type="checkbox" id="business" name="business" value="Business">
-                            <label for="vehicle2">It's my profession / side hustle, I have an embroidery business</label><br>
+                            <div class="form-checkboxes">
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="like-it" name="like-it" value="Liking it">
+                                    <label for="like-it">I just really like it</label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="relaxation" name="relaxation" value="Relaxation">
+                                    <label for="relaxation">It helps me relax</label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="social" name="social" value="Social activity" class="form-text-field">
+                                    <label for="social"  class="form-text-field">It's a nice social activity, I like to do it with others</label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="pretty-things" name="pretty-things" value="Making pretty things">
+                                    <label for="pretty-things">It lets me create beautiful things</label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="creativity" name="creativity" value="Creativity">
+                                    <label for="creativity">It's an outlet for creativity, I love making my own designs</label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="gifts" name="gifts" value="Making gifts">
+                                    <label for="gifts">It allows me to make lovely gifts for friends and family</label>
+                                </div>
+                                <div class="form-checkbox">
+                                    <input type="checkbox" id="business" name="business" value="Business">
+                                    <label for="vehicle2">It's my profession / side hustle, I have an embroidery business</label>
+                                </div>
+                            </div>    
+                               
+                                
+                                
+                            </div>
                         </fieldset>
                         <input type="submit" value="Submit">
                         

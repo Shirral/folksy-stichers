@@ -425,13 +425,41 @@ footer a {
 /* form section */
 
 .form {
-    margin: 30px auto;
+    margin:  auto;
     padding: 1em;
-    display: grid;
     border: #207178 solid 1px;
     border-radius: 25px;
     font-family:'Ysabeau Infant', sans-serif;
     color: #207178;
+}
+
+.form-text-field {
+    display: inline-block;
+}
+
+.form-checkbox {
+    text-align: start;
+    display: flex;
+}
+
+.form-checkbox label {
+    max-width: 50%;
+    align-self: start;
+    margin: 0;
+    padding: 0;
+}
+
+.form-checkbox input {
+    align-self: start;
+    margin: 0;
+    padding: 0;
+}
+
+.form-checkboxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
 }
 
 /* Google Maps section */
