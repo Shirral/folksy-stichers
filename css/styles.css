@@ -416,6 +416,12 @@ footer a {
 
 /* ~~~~~~~~~~~~ JOIN-US ~~~~~~~~~~~~ */
 
+/* general usability */
+
+.text-padding-bottom {
+    padding-bottom: 1em;
+}
+
 /* hero-image section */
 
 #join-us-image {
@@ -511,6 +517,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #207178;
     color: white;
+}
+
+#mail-us {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#mail-us p {
+    margin: 0;
 }
 
 /* Google Maps section */
