@@ -150,7 +150,7 @@ a {
 }
 
 .welcome p {
-    margin-bottom: 5px;
+    margin-bottom: 1em;
     color: #207178;
 }
 
@@ -354,10 +354,6 @@ footer a {
     padding-bottom: 90px;
 }
 
-#stitches p {
-    padding-bottom: 0.5em;
-}
-
 #stitches-grid {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -420,7 +416,7 @@ footer a {
 /* general usability */
 
 .text-padding-bottom {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 /* hero-image section */
