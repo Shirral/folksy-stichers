@@ -592,7 +592,7 @@ iframe {
 
 /* join-us email section */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     br {
         display: none;
     }
