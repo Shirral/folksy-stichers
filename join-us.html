@@ -62,16 +62,22 @@
                         </fieldset>
                         <fieldset>
                             <p>It would be great to know where you are on your embroidery journey so we can send you skill-appropriate project ideas! How would you describe yourself?</p>
-                            <input type="radio" id="beginner" name="skill-level" value="Beginner">
-                            <label for="beginner">I'm a beginner</label><br>
-                            <input type="radio" id="intermediate" name="skill-level" value="Intermediate">
-                            <label for="intermediate">I've been doing embroidery for a while, but I'm not an expert</label><br>
-                            <input type="radio" id="advanced" name="skill-level" value="Advanced">
-                            <label for="advanced">I'm fluent in Stitches and can tackle any project with confidence!</label>
+                            <div class="form-radio">
+                                <input type="radio" id="beginner" name="skill-level" value="Beginner">
+                                <label for="beginner">I'm a beginner</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="radio" id="intermediate" name="skill-level" value="Intermediate">
+                                <label for="intermediate">I've been doing embroidery for a while, but I'm not an expert</label>
+                            </div>
+                            <div class="form-radio">
+                                <input type="radio" id="advanced" name="skill-level" value="Advanced">
+                                <label for="advanced">I'm fluent in Stitches and can tackle any project with confidence!</label>
+                            </div>
                         </fieldset>
-                        <fieldset class="form-checkboxes-wrapper">
+                        <fieldset>
                             <p>What are your main motivators for embroidering? You can choose as many options as you like!</p>
-                            <div class="form-checkboxes">
+                            <div id="form-checkboxes">
                                 <div class="form-checkbox">
                                     <input type="checkbox" id="like-it" name="like-it" value="Liking it">
                                     <label for="like-it">I just really like it</label>
@@ -82,11 +88,11 @@
                                 </div>
                                 <div class="form-checkbox">
                                     <input type="checkbox" id="social" name="social" value="Social activity" class="form-text-field">
-                                    <label for="social"  class="form-text-field">It's a nice social activity, I like to do it with others</label>
+                                    <label for="social" class="form-text-field">It's a nice social activity, I like to do it with others</label>
                                 </div>
                                 <div class="form-checkbox">
                                     <input type="checkbox" id="pretty-things" name="pretty-things" value="Making pretty things">
-                                    <label for="pretty-things">It lets me create beautiful things</label>
+                                    <label for="pretty-things">It lets me create beautiful things from patterns</label>
                                 </div>
                                 <div class="form-checkbox">
                                     <input type="checkbox" id="creativity" name="creativity" value="Creativity">
@@ -101,12 +107,9 @@
                                     <label for="vehicle2">It's my profession / side hustle, I have an embroidery business</label>
                                 </div>
                             </div>    
-                               
-                                
-                                
-                            </div>
+                            <input type="submit" value="Submit">       
                         </fieldset>
-                        <input type="submit" value="Submit">
+                        
                         
                     </form>
                 </div>
