@@ -590,3 +590,10 @@ iframe {
     }
 }
 
+/* join-us email section */
+
+@media screen and (max-width: 800px) {
+    br {
+        display: none;
+    }
+}
