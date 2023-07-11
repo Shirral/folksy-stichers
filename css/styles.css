@@ -443,6 +443,18 @@ footer a {
     margin: 0.5em;
 }
 
+.form-text-field input {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+.form-text-field input:focus {
+    outline: none;
+    border: 2px solid #207178;
+}
+
 .form-text-field label {
     margin-right: 0.5em;
 }
@@ -493,6 +505,7 @@ input[type="submit"] {
     border: #207178 solid 1px;
     border-radius: 10px;
     padding: 7px;
+    color: #207178;
 }
 
 input[type="submit"]:hover {
