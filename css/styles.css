@@ -507,6 +507,7 @@ footer a {
 
 input[type="submit"] {
     margin-top: 1.5em;
+    margin-bottom: 0.5em;
     background: none;
     border: #207178 solid 1px;
     border-radius: 10px;
