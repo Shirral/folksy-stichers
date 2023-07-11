@@ -94,7 +94,7 @@ a {
     
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* not needed - work with .hero-text margin-top instead */
     text-align: center;
 }
 
@@ -425,7 +425,13 @@ footer a {
 /* form section */
 
 .form {
+    margin: 30px auto;
+    padding: 1em;
     display: grid;
+    border: #207178 solid 1px;
+    border-radius: 25px;
+    font-family:'Ysabeau Infant', sans-serif;
+    color: #207178;
 }
 
 /* Google Maps section */
