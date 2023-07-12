@@ -431,6 +431,10 @@ footer a {
 
 /* form section */
 
+#newsletter a {
+    color: #F29552;
+}
+
 .form {
     margin: auto;
     padding: 1em;
