@@ -517,17 +517,21 @@ input[type="submit"]:hover {
     color: white;
 }
 
-#mail-us {
+.mail-us {
     margin: 0;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-#mail-us p {
+.mail-us p {
+    margin: 0 0 0.5em;
+}
+
+#email-address {
     margin: 0;
 }
 
-/* Google Maps section */
+/* address section */
 
 iframe {
     border-radius: 25px;
