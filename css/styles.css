@@ -411,6 +411,14 @@ footer a {
     background: url("../assets/wheel.jpg") no-repeat center center;
 }
 
+#chain {
+    background: url("../assets/chain-stitch.jpg") no-repeat center center;
+}
+
+#knots {
+    background: url("../assets/french-knots.jpg") no-repeat center center;
+}
+
 /* ~~~~~~~~~~~~ JOIN-US ~~~~~~~~~~~~ */
 
 /* general usability */
