@@ -99,7 +99,7 @@ a {
 }
 
 #landing {
-    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/main.jpg") no-repeat center 70%;
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../images/hero-image-home.jpg") no-repeat center 70%;
 }
 
 .hero-text {
@@ -209,7 +209,7 @@ a {
 /* ~~~~~~~~~~~~ OUR MEETINGS ~~~~~~~~~~~~ */
 
 #meetings {
-    background: linear-gradient(rgba(242, 149, 82, 0.93),rgba(242, 149, 82, 0.93)), url(../assets/meetbg.jpg);
+    background: linear-gradient(rgba(242, 149, 82, 0.93),rgba(242, 149, 82, 0.93)), url(../images/meetings-background.jpg);
 }
 
 #meetings-text {
@@ -276,20 +276,20 @@ a {
     padding-left: 1em;
 }
 
-#cross {
-    background: url("../assets/cross.jpg") no-repeat center center;
+#cross-stitching {
+    background: url("../images/meetings-cross-stitch.jpg") no-repeat center center;
 }
 
-#edit {
-    background: url("../assets/edit.jpg") no-repeat center center;
+#customisation {
+    background: url("../images/meetings-customisation.jpg") no-repeat center center;
 }
 
 #florals {
-    background: url("../assets/florals.jpg") no-repeat center center;
+    background: url("../images/meetings-florals.jpg") no-repeat center center;
 }
 
 #pets {
-    background: url("../assets/pets.jpg") no-repeat center center;
+    background: url("../images/meetings-pets.jpg") no-repeat center center;
 }
 
 #meetings-host {
@@ -345,7 +345,7 @@ footer a {
 /* hero-image section */
 
 #stitches-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/stitches.jpg") no-repeat center 70%;
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../images/hero-image-our-stitches.jpg") no-repeat center;
 }
 
 /* stitches section */
@@ -388,35 +388,35 @@ footer a {
 }
 
 #running {
-    background: url("../assets/running.jpg") no-repeat center center;
+    background: url("../images/running-stitch.jpg") no-repeat center center;
 }
 
 #back {
-    background: url("../assets/back.jpg") no-repeat center center;
+    background: url("../images/back-stitch.jpg") no-repeat center center;
 }
 
 #satin {
-    background: url("../assets/satin.jpg") no-repeat center center;
+    background: url("../images/satin-stitch.jpg") no-repeat center center;
 }
 
 #cross {
-    background: url("../assets/cross11.jpg") no-repeat center center;
+    background: url("../images/cross-stitch.jpg") no-repeat center center;
 }
 
-#lazy {
-    background: url("../assets/lazydaisy.jpg") no-repeat center center;
+#lazy-daisy {
+    background: url("../images/lazy-daisy-stitch.jpg") no-repeat center center;
 }
 
-#wheel {
-    background: url("../assets/wheel.jpg") no-repeat center center;
+#woven-wheel {
+    background: url("../images/woven-wheel-stitch.jpg") no-repeat center center;
 }
 
 #chain {
-    background: url("../assets/chain-stitch.jpg") no-repeat center center;
+    background: url("../images/chain-stitch.jpg") no-repeat center center;
 }
 
 #knots {
-    background: url("../assets/french-knots.jpg") no-repeat center center;
+    background: url("../images/french-knots.jpg") no-repeat center center;
 }
 
 /* ~~~~~~~~~~~~ JOIN-US ~~~~~~~~~~~~ */
@@ -434,7 +434,7 @@ footer a {
 /* hero-image section */
 
 #join-us-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../assets/join33.jpg") no-repeat center 70%;
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.5)), url("../images/hero-image-join-us.jpg") no-repeat center 65%;
 }
 
 /* form section */
