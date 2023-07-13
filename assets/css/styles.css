@@ -459,12 +459,19 @@ footer a {
     padding-bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    grid-template-rows: 300px;
+    gap: 5%;
 }
 
 .modal-body p {
     color: white;
     padding-top: 0;
+    margin-bottom: 1em;
+}
+
+.modal-video-embed iframe {
+    width: 100%;
+    height: 100%;
     margin-bottom: 1em;
 }
 
