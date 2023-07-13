@@ -448,7 +448,8 @@ footer a {
 }
 
 .modal-content {
-    background-color: #207178;
+    background: linear-gradient(rgba(32, 113, 120, 0.93),rgba(32, 113, 120, 0.93)), url(../images/meetings-background.jpg);
+    border-radius: 25px;
 }
 
 .modal-header {
@@ -463,6 +464,7 @@ footer a {
 .modal-footer button {
     background: none;
     border: white solid 1px;
+    border-radius: 10px;
 }
 
 .modal-footer button:hover {
