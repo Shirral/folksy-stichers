@@ -460,6 +460,7 @@ footer a {
 
 .modal-footer {
     border-top: none;
+    justify-content: center;
 }
 
 .modal-footer button {
@@ -474,8 +475,7 @@ footer a {
 }
 
 .modal-body {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 5%;
     display: grid;
     grid-template-columns: 1fr 55%;
     grid-template-rows: 300px;
@@ -699,3 +699,8 @@ iframe {
         display: none;
     }
 }
+
+/* modal */
+
+/* MAKE SURE TO CHANGE BOOTSTRAP'S BREAKPOINTS FOR THESE!!!
+- classes - make one appear, another disappear? */

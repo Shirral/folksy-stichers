@@ -12,11 +12,36 @@
     </head>
     <body>
         
-        <div class="modal fade" id="test" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- modals for the grid items in the "stitches" section -->
+
+        
+        <div class="modal fade" id="running-modal" tabindex="-1" aria-labelledby="running-stitch" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title" id="exampleModalLabel">Back Stitch</h1>
+                        <h1 class="modal-title" id="running-stitch">Running Stitch</h1>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-text-box">
+                            <p>The running stitch is a simple and versatile embroidery stitch that holds a special place in the world of needlework. You can use it to decorate the edges and seams of your clothing and accessories, make delicate outlines in your designs, or to create Japanese sashiko. Whether used as a foundation for more complex stitches or as a standalone design element, the running stitch is a fundamental technique that every embroidery enthusiast should master.</p>
+                            <p>The running stitch is formed by passing the needle in and out of the fabric in a continuous motion, creating a dashed line effect. Watch the video to see exactly how to do it!</p>
+                        </div>
+                        <div class="modal-video-embed">
+                            <iframe src="https://www.youtube.com/embed/fgzb7O7tkzQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="back-modal" tabindex="-1" aria-labelledby="back-stitch" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="back-stitch">Back Stitch</h1>
                     </div>
                     <div class="modal-body">
                         <div class="modal-text-box">
@@ -77,14 +102,14 @@
                 </p>
             </div>
             <div class="wrapper" id="stitches-grid">
-                <a href="https://youtu.be/fgzb7O7tkzQ" target="_blank">
+                <a data-bs-toggle="modal" href="#running-modal">
                     <div class="stitches-griditem" id="running">
                         <div class="stitches-griditem-infobox">
                             <h1>Running Stitch</h1>
                         </div>
                     </div>
                 </a>
-                <a data-bs-toggle="modal" href="#test">
+                <a data-bs-toggle="modal" href="#back-modal">
                     <div class="stitches-griditem" id="back">
                         <div class="stitches-griditem-infobox">
                             <h1>Back Stitch</h1>
