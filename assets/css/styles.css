@@ -457,6 +457,9 @@ footer a {
 .modal-body {
     padding-top: 0;
     padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
 }
 
 .modal-body p {
