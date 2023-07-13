@@ -454,6 +454,11 @@ footer a {
     border-bottom: none;
 }
 
+.modal-body {
+    color: white;
+    padding-top: 0;
+}
+
 /* ~~~~~~~~~~~~ JOIN-US ~~~~~~~~~~~~ */
 
 /* general usability */
