@@ -444,6 +444,7 @@ footer a {
 
 .modal h1 {
     color: white;
+    text-shadow: 1px 1px 3px black;
 }
 
 .modal-content {
@@ -452,6 +453,7 @@ footer a {
 
 .modal-header {
     border-bottom: none;
+    justify-content: center;
 }
 
 .modal-footer {
@@ -472,9 +474,9 @@ footer a {
     padding-top: 0;
     padding-bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 60%;
+    grid-template-columns: 1fr 55%;
     grid-template-rows: 300px;
-    gap: 5%;
+    gap: 3%;
 }
 
 .modal-body p {
