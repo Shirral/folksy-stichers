@@ -450,6 +450,7 @@ footer a {
 .modal-content {
     background: linear-gradient(rgba(32, 113, 120, 0.93),rgba(32, 113, 120, 0.93)), url(../images/meetings-background.jpg);
     border-radius: 25px;
+    border: none;
 }
 
 .modal-header {
