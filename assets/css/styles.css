@@ -51,6 +51,15 @@ a {
     margin: auto;
 }
 
+.section-default {
+    background-color: white;
+    padding: 30px 10%;
+}
+
+.section-default p {
+    margin-bottom: 1em;
+    color: #207178;
+}
 
 /* ~~~~~~~~~~~~ NAVBAR ~~~~~~~~~~~~ */
 
@@ -148,15 +157,7 @@ menu {
 
 /* ~~~~~~~~~~~~ WELCOME ~~~~~~~~~~~~ */
 
-.welcome {
-    background-color: white;
-    padding: 30px 10%;
-}
 
-.welcome p {
-    margin-bottom: 1em;
-    color: #207178;
-}
 
 /* ~~~ FLICKITY CAROUSEL - from  https://flickity.metafizzy.co/ ~~~ */
 /* ~~~ style code modified to fit in with this project better ~~~ */
@@ -178,34 +179,35 @@ menu {
 
 .flickity-button {
     background: #207178;
-  }
-  .flickity-button:hover {
+}
+
+.flickity-button:hover {
     background: #F29552;
-  }
-  
-  .flickity-prev-next-button {
+}
+
+.flickity-prev-next-button {
     width: 30px;
     height: 30px;
     border-radius: 5px;
-  }
+}
 
-  /* icon color */
-  .flickity-button-icon {
+/* icon color */
+.flickity-button-icon {
     fill: white;
-  }
+}
 
-  /* position outside */
-  .flickity-prev-next-button.previous {
+/* position outside */
+.flickity-prev-next-button.previous {
     left: -40px;
-  }
-  
-  .flickity-prev-next-button.next {
+}
+
+.flickity-prev-next-button.next {
     right: -40px;
-  }
+}
 
-  /* dots - selected */
+/* dots - selected */
 
-  .flickity-page-dots .dot {
+.flickity-page-dots .dot {
     background: #207178;
 }
 
@@ -221,7 +223,8 @@ menu {
     padding: 30px 10%;
 }
 
-#meetings-text h1, p {
+#meetings-text h1,
+#meetings-text p {
     color: white;
 }
 
@@ -260,6 +263,10 @@ menu {
 
 .meetings-griditem-infobox h4 {
     margin-bottom: 4%;
+}
+
+.meetings-griditem-infobox p {
+    color: white;
 }
 
 .meetings-griditem-infobox-wrapper {
@@ -306,6 +313,7 @@ menu {
 
 #meetings-host p {
     margin-bottom: 25px;
+    color: white;
 }
 
 #meetings-host button {
@@ -329,6 +337,10 @@ footer {
     text-align: center;
     padding: 0.5rem 0;
     font-size: small;
+}
+
+footer p {
+    color: white;
 }
 
 footer a {
