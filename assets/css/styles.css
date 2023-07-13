@@ -439,6 +439,21 @@ footer a {
     background: url("../images/french-knots.jpg") no-repeat center center;
 }
 
+
+/* ~~~ Bootstrap modal ~~~ */
+
+.modal-content {
+    background-color: #207178;
+}
+
+.modal h1 {
+    color: white;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
 /* ~~~~~~~~~~~~ JOIN-US ~~~~~~~~~~~~ */
 
 /* general usability */
