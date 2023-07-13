@@ -458,6 +458,16 @@ footer a {
     border-top: none;
 }
 
+.modal-footer button {
+    background: none;
+    border: white solid 1px;
+}
+
+.modal-footer button:hover {
+    background: white;
+    color: #207178;
+}
+
 .modal-body {
     padding-top: 0;
     padding-bottom: 0;
