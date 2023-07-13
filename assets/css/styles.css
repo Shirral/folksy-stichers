@@ -442,12 +442,12 @@ footer a {
 
 /* ~~~ Bootstrap modal ~~~ */
 
-.modal-content {
-    background-color: #207178;
-}
-
 .modal h1 {
     color: white;
+}
+
+.modal-content {
+    background-color: #207178;
 }
 
 .modal-header {
@@ -455,8 +455,14 @@ footer a {
 }
 
 .modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.modal-body p {
     color: white;
     padding-top: 0;
+    margin-bottom: 1em;
 }
 
 /* ~~~~~~~~~~~~ JOIN-US ~~~~~~~~~~~~ */
