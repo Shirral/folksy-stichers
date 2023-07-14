@@ -220,12 +220,16 @@ menu {
 
 #meetings-text {
     margin-top: 43px;
-    padding: 30px 10%;
+    padding: 30px 10% 22px;
 }
 
 #meetings-text h1,
 #meetings-text p {
     color: white;
+}
+
+#meetings-text p {
+    margin-bottom: 0.5em;
 }
 
 #meetings-text p a {
@@ -697,6 +701,21 @@ iframe {
     }
 }
 
+@media screen and (max-width: 325px) {
+
+    .hero-text {
+        margin: 70% 40px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+    }
+
+    .hero-text h2 {
+        font-size: 40px;
+    }
+}
+
 /* Flickity carousel */
 
 @media screen and (max-width: 1030px) {
@@ -748,12 +767,70 @@ iframe {
     }
 
     .flickity-page-dots {
-        bottom: -15px;
+        bottom: 10px;
     }
     
-    .dot {
-        background: #207178;
+    .flickity-page-dots .dot {
+        background: white;
     }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .carousel {
+        height: 300px;
+    }
+    
+    .carousel-cell {
+        height: 300px;   
+    }
+
+    .flickity-page-dots {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .carousel {
+        height: 200px;
+    }
+    
+    .carousel-cell {
+        height: 200px; 
+    }
+}
+
+/* Our Meetings eetings section */
+
+
+@media screen and (max-width: 1500px) {
+
+    #meetings-text p {
+        margin-bottom: 1em;
+    }
+
+    #meetings-text {
+        padding-bottom: 14px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    #meetings-text {
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    #meetings-text {
+        margin-top: 10px;
+        text-align: justify;
+    }
+
 }
 
 
