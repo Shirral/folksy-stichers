@@ -255,14 +255,31 @@ menu {
     overflow: hidden;
 }
 
+.meetings-griditem-right {
+    height: 400px;
+    border-radius: 40px;
+    border: 3px solid white;
+    align-items: end;
+    overflow: hidden;
+    display: none;
+}
+
+.meetings-griditem-infobox-right {
+    display: none;
+    height: 55%;
+    background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85));
+    padding: 30% 3% 3%;
+    justify-content: center;
+    align-content: center;
+}
+
 .meetings-griditem-infobox {
     height: 55%;
     background: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85));
     padding: 30% 3% 3%;
     display: grid;
     justify-content: center;
-    align-content: 
-    center;
+    align-content: center;
 }
 
 .meetings-griditem-infobox h4 {
@@ -270,6 +287,10 @@ menu {
 }
 
 .meetings-griditem-infobox p {
+    color: white;
+}
+
+.meetings-griditem-infobox-right p {
     color: white;
 }
 
@@ -291,11 +312,23 @@ menu {
     padding-left: 1em;
 }
 
+.time-short {
+    display: none;
+}
+
 #cross-stitching {
     background: url("../images/meetings-cross-stitch.jpg") no-repeat center center;
 }
 
+#cross-stitching-right {
+    background: url("../images/meetings-cross-stitch.jpg") no-repeat center center;
+}
+
 #customisation {
+    background: url("../images/meetings-customisation.jpg") no-repeat center center;
+}
+
+#customisation-right {
     background: url("../images/meetings-customisation.jpg") no-repeat center center;
 }
 
@@ -641,6 +674,16 @@ iframe {
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
 
+/* general - section */
+
+@media screen and (max-width: 1030px) {
+    
+    .section-default {
+        padding-left: ;
+        padding-right: ;
+    }
+}
+
 /* hero-image section */
 
 @media screen and (min-height: 1281px) {
@@ -792,7 +835,7 @@ iframe {
     }
 }
 
-/* Our Meetings eetings section */
+/* Our Meetings section */
 
 
 @media screen and (max-width: 1500px) {
@@ -805,6 +848,15 @@ iframe {
         padding-bottom: 14px;
     }
 
+}
+
+@media screen and (max-width: 1030px) {
+
+    #meetings-grid {
+        grid-template-columns: 50% 50%;
+        row-gap: 30px;
+    }
+    
 }
 
 @media screen and (max-width: 850px) {
@@ -822,7 +874,112 @@ iframe {
         text-align: justify;
     }
 
+    #meetings-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .meetings-griditem {
+        height: 200px;
+        align-items: center;
+        justify-items: start;
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+
+    .meetings-griditem-infobox {
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85));
+        padding: 5% 0 5% 5%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .meetings-griditem-right {
+
+        height: 200px;
+        align-items: center;
+        justify-items: end;
+        display: grid;
+        grid-template-columns: 55% 45%;
+
+    }
+
+    .meetings-griditem-infobox-right {
+        height: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85));
+        padding: 5% 0 5% 5%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .meetings-griditem-infobox h4 {
+        margin-bottom: 10%;
+    }
+
+    .meetings-griditem-infobox-right h4 {
+        margin-bottom: 10%;
+    }
+
+    .meetings-griditem-infobox-icons {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .meetings-griditem-infobox-text {
+        padding-left: 0.5em;
+    }
+
+    .time-short {
+        display: contents;
+    }
+
+    .time-long {
+        display: none;
+    }
+    
+    #customisation {
+        display: none;
+    }
+
+    #cross-stitching {
+        display: none;
+    }
+
 }
+
+@media screen and (max-width: 480px) {
+
+    .meetings-griditem-infobox h3 {
+        font-size: 25px;
+    }
+
+    .meetings-griditem-infobox-right h3 {
+        font-size: 25px;
+    }
+    
+    .meetings-griditem-infobox h4 {
+        font-size: 12px;
+    }
+
+    .meetings-griditem-infobox-right h4 {
+        font-size: 12px;
+    }
+
+    .meetings-griditem-infobox-text p,
+    .meetings-griditem-infobox-icons p {
+        font-size: smaller;
+    }
+
+}
+
+
+
 
 
 
