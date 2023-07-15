@@ -1008,6 +1008,32 @@ iframe {
 
 }
 
+/* Our Stitches grid */
+
+
+
+
+/* Our Stitches modal */
+
+@media screen and (max-width: 1200px) {
+
+    .modal-body {
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+
+    .modal-video-embed iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .modal-video-embed {
+        margin-bottom: 0;
+    }
+
+}
 
 
 
@@ -1021,8 +1047,3 @@ iframe {
         display: none;
     }
 }
-
-/* modal */
-
-/* MAKE SURE TO CHANGE BOOTSTRAP'S BREAKPOINTS FOR THESE!!!
-- classes - make one appear, another disappear? */
