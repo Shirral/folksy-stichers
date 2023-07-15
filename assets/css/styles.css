@@ -1010,8 +1010,38 @@ iframe {
 
 /* Our Stitches grid */
 
+@media screen and (max-width: 1300px) {
 
+    .wrapper {
+        width: 80%;
+    }
 
+}
+
+@media screen and (max-width: 1100px) {
+
+    #stitches-grid {
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    #stitches-grid {
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #stitches-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        row-gap: 30px;
+    }
+
+}
 
 /* Our Stitches modal */
 
