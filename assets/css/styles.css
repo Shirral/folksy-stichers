@@ -1,3 +1,5 @@
+/* ~~~ Google Fonts ~~~ */
+
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Slab:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Ysabeau+Infant:wght@100;200;300;400;500;600;700&display=swap');
 
 /* ~~~~~~~~~~~~ GENERAL FUNCTIONALITY ~~~~~~~~~~~~ */
@@ -104,10 +106,9 @@ menu {
     height: 100vh;
     overflow: hidden;
     position: relative;
-    
     display: flex;
     justify-content: center;
-    align-items: center; /* not needed - work with .hero-text margin-top instead */
+    align-items: center;
     text-align: center;
 }
 
@@ -156,8 +157,6 @@ menu {
 }
 
 /* ~~~~~~~~~~~~ WELCOME ~~~~~~~~~~~~ */
-
-
 
 /* ~~~ FLICKITY CAROUSEL - from  https://flickity.metafizzy.co/ ~~~ */
 /* ~~~ style code modified to fit in with this project better ~~~ */
@@ -210,7 +209,6 @@ menu {
 .flickity-page-dots .dot {
     background: #207178;
 }
-
 
 /* ~~~~~~~~~~~~ OUR MEETINGS ~~~~~~~~~~~~ */
 
@@ -475,7 +473,6 @@ footer a {
 #knots {
     background: url("../images/french-knots.jpg") no-repeat center center;
 }
-
 
 /* ~~~ Bootstrap modal ~~~ */
 
@@ -840,7 +837,6 @@ input[type="submit"]:hover {
 
 /* Our Meetings section */
 
-
 @media screen and (max-width: 1500px) {
 
     #meetings-text p {
@@ -1104,5 +1100,3 @@ input[type="submit"]:hover {
         display: none;
     }
 }
-
-/* join-us Google Map */
