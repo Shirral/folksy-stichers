@@ -339,7 +339,7 @@ menu {
 }
 
 #meetings-host {
-    padding: 30px 10%;
+    padding: 30px 10% 45px;
 }
 
 #meetings-host h2 {
@@ -351,22 +351,18 @@ menu {
     color: white;
 }
 
-#meetings-host button {
+.a-button {
     background: none;
     border: #207178 solid 2px;
     border-radius: 10px;
-    padding: 7px;
-}
-
-#meetings-host button:hover {
-    background-color: #207178;
-}
-
-#meetings-host button a {
+    padding: 8px 14px;
     color: white;
     text-decoration: none;
     font-size: medium;
-    padding: 7px;
+}
+
+.a-button:hover {
+    background-color: #207178;
 }
 
 /* ~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~ */
@@ -437,9 +433,10 @@ footer a {
     center;
 }
 
-.stitches-griditem-infobox h1 {
+.stitches-griditem-infobox h2 {
     color: white;
     text-shadow: 1px 1px 5px black;
+    font-size: 40px;
 }
 
 #running {
@@ -476,9 +473,10 @@ footer a {
 
 /* ~~~ Bootstrap modal ~~~ */
 
-.modal h1 {
+.modal h2 {
     color: white;
     text-shadow: 1px 1px 3px black;
+    font-size: 40px;
 }
 
 .modal-content {
