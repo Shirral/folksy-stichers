@@ -856,6 +856,10 @@ iframe {
         grid-template-columns: 50% 50%;
         row-gap: 30px;
     }
+
+    .meetings-griditem-infobox {
+        padding-bottom: 7%;
+    }
     
 }
 
@@ -865,6 +869,22 @@ iframe {
         margin-top: 10px;
     }
 
+    .meetings-griditem-infobox {
+        padding-bottom: 5%;
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    
+    .time-short {
+        display: contents;
+    }
+
+    .time-long {
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 550px) {
@@ -943,6 +963,16 @@ iframe {
         display: none;
     }
     
+    #customisation-right {
+        background: url("../images/meetings-customisation-small.jpg") no-repeat center center;
+
+    }
+
+    #pets {
+        background: url("../images/meetings-pets-small.jpg") no-repeat center center;
+
+    }
+
     #customisation {
         display: none;
     }
