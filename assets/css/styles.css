@@ -601,10 +601,13 @@ footer a {
 .form-radio input {
     vertical-align: middle;
     margin: 3px;
+    display: inline;
 }
     
 .form-radio label {
     vertical-align: middle;
+    text-align: start;
+    display: inline;
 }
 
 #form-checkboxes {
@@ -673,16 +676,6 @@ iframe {
 }
 
 /* ~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~ */
-
-/* general - section */
-
-@media screen and (max-width: 1030px) {
-    
-    .section-default {
-        padding-left: ;
-        padding-right: ;
-    }
-}
 
 /* hero-image section */
 
@@ -1065,9 +1058,33 @@ iframe {
 
 }
 
+/* join-us form */
 
+@media screen and (max-width: 1150px) {
+    
+    #form-checkboxes {
+        padding: 0 15%;
+    }
+    
+}
 
+@media screen and (max-width: 620px) {
+    
+    #form-checkboxes {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 10% 0;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1em;
+        column-gap: 10%;
+    }
 
+    .form-radio {
+        line-height: 1em;
+        margin: 1em auto 0.5em;
+    }
+    
+}
 
 /* join-us email section */
 
@@ -1077,3 +1094,5 @@ iframe {
         display: none;
     }
 }
+
+/* join-us Google Map */
