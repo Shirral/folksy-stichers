@@ -55,101 +55,106 @@
             </div>
         </section>
 
-        <!-- "Newsletter" section -->
+        <!-- Main body of the page -->
+        
+        <main>
+        
+            <!-- "Newsletter" section -->
 
-        <section id="newsletter">
-            <div class="section-default text-center">
-                <h1>Stay up to date with our activities!</h1>
-                <p>Do you use Facebook? <a href="https://www.facebook.com/" target="_blank">We have a Facebook group</a> where we post about the upcoming meetings and share pictures and resources from past events. It's also a place for our members to show off their latest creations and chat to each other!</p>
-                <p class="text-padding-bottom">We also have a newsletter, which we strongly recommend all our members and friends to sign up to not to miss the latest information about the club meetings and special events in our area, to see the beautiful things our members have created recently, and to get inspired with wonderful project ideas and learn a new thing or two! Fill in the form below to sign up for all the embroidery goodness delivered to you once a fortnight.</p>
+            <section id="newsletter">
+                <div class="section-default text-center">
+                    <h1>Stay up to date with our activities!</h1>
+                    <p>Do you use Facebook? <a href="https://www.facebook.com/" target="_blank">We have a Facebook group</a> where we post about the upcoming meetings and share pictures and resources from past events. It's also a place for our members to show off their latest creations and chat to each other!</p>
+                    <p class="text-padding-bottom">We also have a newsletter, which we strongly recommend all our members and friends to sign up to not to miss the latest information about the club meetings and special events in our area, to see the beautiful things our members have created recently, and to get inspired with wonderful project ideas and learn a new thing or two! Fill in the form below to sign up for all the embroidery goodness delivered to you once a fortnight.</p>
+                    
+                    <!-- newsletter signup form -->
+                    
+                    <form class="form" method="post" id="newsletter-signup" onSubmit="alert('Thank you! You will hear from us shortly :)');">
+                            <fieldset>
+                                <div class="form-text-field">
+                                    <label for="name">Your name: </label>
+                                    <input type="text" id="name" name="name" placeholder="Type your name here...">
+                                </div>
+                                <div class="form-text-field">
+                                    <label for="email">Your email address: </label>
+                                    <input type="email" id="email" name="email" placeholder="Type your email here...">
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <p>It would be great to know where you are on your embroidery journey so we can send you skill-appropriate project ideas! How would you describe yourself?</p>
+                                <div class="form-radio">
+                                    <input type="radio" id="beginner" name="skill-level" value="Beginner">
+                                    <label for="beginner">I'm a beginner</label>
+                                </div>
+                                <div class="form-radio">
+                                    <input type="radio" id="intermediate" name="skill-level" value="Intermediate">
+                                    <label for="intermediate">I've been doing embroidery for a while, but I'm not an expert</label>
+                                </div>
+                                <div class="form-radio">
+                                    <input type="radio" id="advanced" name="skill-level" value="Advanced">
+                                    <label for="advanced">I'm fluent in Stitches and can tackle any project with confidence!</label>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <p>What are your main motivators for embroidering? You can choose as many options as you like!</p>
+                                <div id="form-checkboxes">
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="like-it" name="like-it" value="Liking it">
+                                        <label for="like-it">I just really like it</label>
+                                    </div>
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="relaxation" name="relaxation" value="Relaxation">
+                                        <label for="relaxation">It helps me relax</label>
+                                    </div>
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="social" name="social" value="Social activity" class="form-text-field">
+                                        <label for="social" class="form-text-field">It's a nice social activity, I like to do it with others</label>
+                                    </div>
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="pretty-things" name="pretty-things" value="Making pretty things">
+                                        <label for="pretty-things">It lets me create beautiful things from patterns</label>
+                                    </div>
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="creativity" name="creativity" value="Creativity">
+                                        <label for="creativity">It's an outlet for creativity, I love making my own designs</label>
+                                    </div>
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="gifts" name="gifts" value="Making gifts">
+                                        <label for="gifts">It allows me to make lovely gifts for friends and family</label>
+                                    </div>
+                                    <div class="form-checkbox">
+                                        <input type="checkbox" id="business" name="business" value="Business">
+                                        <label for="business">It's my profession / side hustle, I have an embroidery business</label>
+                                    </div>
+                                </div>    
+                                <input type="submit" value="Sign up!">       
+                            </fieldset>
+                    </form>
+                </div>
+            </section>
+
+            <!-- "Contact us" section -->
+
+            <section id="mail-us" class="section-default text-center">
+                <h2>Contact us</h2>
+                <p class="text-padding-bottom">Have you got questions about our club? Suggestions for making our meetings even better? Maybe you'd like to host an event of your own with us? <br>If so, write us an email! We typically respond within a week.</p>
+                <p id="email-address" class="font-weight-500"><a href="mailto:hello@folksystitchers.com"><i class="fa-solid fa-envelope"></i> hello@folksystitchers.com</a></p>
+            </section>
+
+            <!-- "Where to find us" section -->
+
+            <section id="address" class="section-default text-center">
+                <h2>Where to find us</h2>
+                <p>Planning to come to one of our meetings? We meet at Long Sutton Village Hall and Recreation Ground. <br>You can find the address and a map of the area with the location marked below!</p>
+                <p class="text-padding-bottom font-weight-500"><i class="fa-solid fa-location-dot"></i> Village Hall, Martock Road, Long Sutton TA10 9NT</p>
                 
-                <!-- newsletter signup form -->
+                <!-- embedded Google Map -->
                 
-                <form class="form" method="post" id="newsletter-signup" onSubmit="alert('Thank you! You will hear from us shortly :)');">
-                        <fieldset>
-                            <div class="form-text-field">
-                                <label for="name">Your name: </label>
-                                <input type="text" id="name" name="name" placeholder="Type your name here...">
-                            </div>
-                            <div class="form-text-field">
-                                <label for="email">Your email address: </label>
-                                <input type="email" id="email" name="email" placeholder="Type your email here...">
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <p>It would be great to know where you are on your embroidery journey so we can send you skill-appropriate project ideas! How would you describe yourself?</p>
-                            <div class="form-radio">
-                                <input type="radio" id="beginner" name="skill-level" value="Beginner">
-                                <label for="beginner">I'm a beginner</label>
-                            </div>
-                            <div class="form-radio">
-                                <input type="radio" id="intermediate" name="skill-level" value="Intermediate">
-                                <label for="intermediate">I've been doing embroidery for a while, but I'm not an expert</label>
-                            </div>
-                            <div class="form-radio">
-                                <input type="radio" id="advanced" name="skill-level" value="Advanced">
-                                <label for="advanced">I'm fluent in Stitches and can tackle any project with confidence!</label>
-                            </div>
-                        </fieldset>
-                        <fieldset>
-                            <p>What are your main motivators for embroidering? You can choose as many options as you like!</p>
-                            <div id="form-checkboxes">
-                                <div class="form-checkbox">
-                                    <input type="checkbox" id="like-it" name="like-it" value="Liking it">
-                                    <label for="like-it">I just really like it</label>
-                                </div>
-                                <div class="form-checkbox">
-                                    <input type="checkbox" id="relaxation" name="relaxation" value="Relaxation">
-                                    <label for="relaxation">It helps me relax</label>
-                                </div>
-                                <div class="form-checkbox">
-                                    <input type="checkbox" id="social" name="social" value="Social activity" class="form-text-field">
-                                    <label for="social" class="form-text-field">It's a nice social activity, I like to do it with others</label>
-                                </div>
-                                <div class="form-checkbox">
-                                    <input type="checkbox" id="pretty-things" name="pretty-things" value="Making pretty things">
-                                    <label for="pretty-things">It lets me create beautiful things from patterns</label>
-                                </div>
-                                <div class="form-checkbox">
-                                    <input type="checkbox" id="creativity" name="creativity" value="Creativity">
-                                    <label for="creativity">It's an outlet for creativity, I love making my own designs</label>
-                                </div>
-                                <div class="form-checkbox">
-                                    <input type="checkbox" id="gifts" name="gifts" value="Making gifts">
-                                    <label for="gifts">It allows me to make lovely gifts for friends and family</label>
-                                </div>
-                                <div class="form-checkbox">
-                                    <input type="checkbox" id="business" name="business" value="Business">
-                                    <label for="business">It's my profession / side hustle, I have an embroidery business</label>
-                                </div>
-                            </div>    
-                            <input type="submit" value="Sign up!">       
-                        </fieldset>
-                </form>
-            </div>
-        </section>
-
-        <!-- "Contact us" section -->
-
-        <section id="mail-us" class="section-default text-center">
-            <h2>Contact us</h2>
-            <p class="text-padding-bottom">Have you got questions about our club? Suggestions for making our meetings even better? Maybe you'd like to host an event of your own with us? <br>If so, write us an email! We typically respond within a week.</p>
-            <p id="email-address" class="font-weight-500"><a href="mailto:hello@folksystitchers.com"><i class="fa-solid fa-envelope"></i> hello@folksystitchers.com</a></p>
-        </section>
-
-        <!-- "Where to find us" section -->
-
-        <section id="address" class="section-default text-center">
-            <h2>Where to find us</h2>
-            <p>Planning to come to one of our meetings? We meet at Long Sutton Village Hall and Recreation Ground. <br>You can find the address and a map of the area with the location marked below!</p>
-            <p class="text-padding-bottom font-weight-500"><i class="fa-solid fa-location-dot"></i> Village Hall, Martock Road, Long Sutton TA10 9NT</p>
-            
-            <!-- embedded Google Map -->
-            
-            <div class="google-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.5546823524123!2d-2.7591262440528195!3d51.02836991802853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487213840ee800a7%3A0x5b4b36adfe8e9817!2sLong%20Sutton%20Village%20Hall%20and%20Rec%20Ground!5e0!3m2!1sen!2suk!4v1688937998518!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="The club meetings location on Google Maps"></iframe>
-            </div>
-        </section>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.5546823524123!2d-2.7591262440528195!3d51.02836991802853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487213840ee800a7%3A0x5b4b36adfe8e9817!2sLong%20Sutton%20Village%20Hall%20and%20Rec%20Ground!5e0!3m2!1sen!2suk!4v1688937998518!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="The club meetings location on Google Maps"></iframe>
+                </div>
+            </section>
+        </main>
 
         <!-- Footer -->
 
