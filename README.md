@@ -29,21 +29,84 @@ To improve the semantic structure of the navigation bar, the `<menu>` tag has be
 The hero image section is present on all the pages, as a strong visual element that lets the user know what the page is about and invites them to continue reading and as a familiar, repeating element of the interface that ties the design of the website together. 
 
 It features an image relevant to each page's topic with a gradient overlay that provides darker background for the text, big text stating the page's topic with a subtle animation, and a gently pulsing Font Awesome down arrow icon that scrolls down, taking the user to the main body of the page, upon clicking.
+<br><br>
+![Hero image section](assets/readme/hero-image-section.jpg)
 
-[pic here - or an animation]
-
-### Welcome section
+### "Welcome" section
 
 The "Welcome" section introduces the user to Folksy Stitches - what it is, what is the purpose of the club, and what they might expect upon joining. 
 
-It features a short paragraph of text that conveys the main goals of the club and its atmosphere and a Flickity carousel gallery showcasing the photographs of the club meetings: the club members at work and the embroidery created during the meetings.
+It features a heading, a short paragraph of text that conveys the main goals of the club and its atmosphere and a Flickity carousel gallery showcasing the photographs of the club meetings: the club members at work and the embroidery created during the meetings.
+<br><br>
+![Welcome section](assets/readme/welcome-section.jpg)
 
-[pic here]
-
-### Our Meetings section
+### "Our Meetings" section
 
 "Our Meetings" section aims to provide the basic information about the club meetings: what meetings are avaiable, how often they happen and on what days, what is the time of the meetings, their cost, and what skill levels they cater to.
 
-Three short paragraphs of text are followed by a grid showcasing the information about four kinds meetings. Each grid item contains a picture representing the meeting's theme, its name, the name of the person hosting the meeting, and the information about the date, time, skill level and cost. There is a black semi-transparent overlay on top of the images to provide good contrast between the picture and the the white text on top of it, making it easy to read.
+A heading and three short paragraphs of text are followed by a grid showcasing the information about four kinds meetings. Each grid item contains a picture representing the meeting's theme, its name, the name of the person hosting the meeting, and the information about the date, time, skill level and cost. There is a black semi-transparent overlay on top of the images to provide good contrast between the picture and the the white text on top of it, making it easy to read.
 
-[picture of a box row]
+Below the grid, there is a **Want to host a meeting?** subsection. The text invites the user to share their ideas for a meeting they might like to host; below, a link styled as a button invites them to click on it, leading them to the **Join us** page where the club's contact information can be found. The link-button changes its colours upon hovering over it with a mouse.
+<br><br>
+![Our Meetings section](assets/readme/our-meetings-section.jpg)
+
+### "Stitches we use" section
+
+This section is aimed at embroidery beginners. It's a resource allowing the user to get familiar with the most common stitches routinely used at the club meetings, learn what a given stitch can be used for, and how to sew it.
+
+The section as it appears before the user when they visit the **Our Stitches** page contains a heading, two short paragraphs of text and a grid of eight interactive elements. Each element contains the name of the stitch it presents, a dark gradient below it to make the text visible and keep the visual style of the information boxes consistent across the pages, and picture presenting the stitch used in embroidery below the text and the gradient.
+<br><br>
+!["Stitches we use" section](assets/readme/stitches-we-use-section.jpg)
+
+Upon clicking on the chosen box, a modal appears at the centre of the screen. Here the user can learn about the stitch of their choice and watch an instructional video on how to do it.
+
+The videos are all embedded YouTube videos and the modals were created using Bootstrap's modal component. The user can leave the modal either by clicking on the "Close" button, or by clicking away from the modal - on the darkened background around it.
+<br><br>
+!["Stitches we use" section modal](assets/readme/modal.jpg)
+
+### Newsletter signup section
+
+The first section on the **Join us** page gives the user the opportunity to stay up to date with the club's activities - either by joining the club's Facebook group where an inline link in the first paragraph leads, or by signing up to the club's newsetter.
+
+The second paragraph of text invites the user to sign up, explains the benefits of doing so, and tells the user how often the newsletter would be sent. It is followed by a **signup form**.
+
+**The newsletter signup form** asks the user to provide their name and email address (a text field and an email field), asks about their embroidery proficiency level (radio inputs), and about their main reasons for doing embroidery (multiple choice question - checkbox inputs). The answers to the two questions mentioned would be used by the club to curate the right kind of content for every newsletter recipient - for example, they would send complicated project ideas only to the most experienced members, while the members who run their own embroidery businesses could receive tips on marketing their creations to a wider audience.
+<br><br>
+![Newsletter signup section](assets/readme/newsletter-section.png)
+
+At the very end of the form is a "Sign up!" button. The button changes its colours upon hovering over it with a mouse. After clicking it, the user is shown a confirmation message by the browser (form attribute: `onSubmit="alert();"`). When they click "OK", the page refreshes.
+<br><br>
+![Form submission confirmation message](assets/readme/form-confimation.png)
+
+### "Contact us" section
+
+This section exists to provide the user with a means of contacting the club. It consists of a heading, a paragraph of text, and the club's email address with a Font Awesome icon and a link, allowing the user to click on the address to open their email client, if they have one, and start writing their message that will be sent to the club's email address.
+<br><br>
+!["Contact us" section](assets/readme/contact-us-section.png)
+
+### "Where to find us" section
+
+This section provides the user with the physical address of the place where the club meetings take place. As with the email address in the previous section, the address is separated from the paragraph of text by margins, higher font weight, and the inclusion of a Font Awesome icon.
+
+The section also contains an embedded Google Maps map centered on the location of the club activities with a pin highlighting the right place and the address visible in the upper left corner.
+<br><br>
+!["Where to find us" section](assets/readme/where-to-find-us-section.png)
+
+### Footer
+
+The simple footer adheres to the website's colour scheme and features three external links to the club's social media pages - Facebook, YouTube, and Instagram - in form of Font Awesome social media icons. There is also a short paragraph of text below the links.
+
+The footer is present at the very bottom of each page of the website.
+<br><br>
+!["Footer"](assets/readme/footer.png)
+
+
+-------------
+
+style:
+
+- colours
+- fonts
+- gradient dark transp
+- rounded corners
+- canvas bg
