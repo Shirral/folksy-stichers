@@ -116,9 +116,39 @@ The footer is present at the very bottom of each page of the website.
 
 - **better accessibility:** using Font Awesome means some elements of the current design might not be clear to screen reader users, as they cannot have `aria-label` attribute added to them. Future releases would benefit from their own icons presented as image files. 
 
+## User Experience & User Interface (UX/UI)
 
+### Site goals
 
+The main goal of the **Folky Stitchers** website is to provide its users - club members and potential future club members - basic information about the club and the meetings it hosts. It also aims to encourage embroidery beginners who might be worried about their lack of experience by providing reassuring words and the information about the basic stitches they will need to start, along with simple to follow tutorials.
 
+The website also invites the users to follow the club's activities more actively by encouraging them to join their Facebook group, sign up to their newsletter, and visit their social media profiles. Finally, it gives the users a way of contacting the club.
+
+The users should be able to find their way around the website easily while the design should be pleasing to the eye and work on a wide variety of devices without causing unpleasant visual glitches or functional errors. 
+
+### User stories
+
+#### First time visitors - ie. curious about the club:
+
+- As a First Time Visitor, I want to learn what the club is about.
+- As a First Time Visitor, I want to learn what kind of activities the club offers.
+- As a First Time Visitor, I want to learn if I can join without any prior embroidery experience.
+- As a First Time Visitor, I want to learn what is the character of the club - is it for people serious about learning and perfecting the craft? Or more laid back with a bigger focus on the social aspect?
+- As a First Time Visitor, I want to find the club's social media pages to look up what kind of things they post there.
+
+#### Returning visitors - ie. considering joining the club:
+
+- As a Returning Visitor, I want to ask someone questions about the club.
+- As a Returning Visitor, I want to learn how much do the meetings cost.
+- As a Returning Visitor, I want to learn if I'd need to bring anything to a meeting if I was to come.
+- As a Returning Visitor, I want to learn if I can prepare a little bit before coming to my first meeting - I don't want the host to have to focus on teaching me the most basic things while the rest of the group waits.
+- As a Returning Visitor, I want to learn where do the meetings take place.
+
+#### Frequent visitors - ie. existing club members:
+
+- As a Frequent Visitor, I want to find a way to keep in touch with the other members of the club.
+- As a Frequent Visitor, I want a to be updated with the latest news and information about the club's activities.
+- As a Frequent Visitor, I want to find the club's email address so I can suggest my ideas to the organisers.
 
 -------------
 
