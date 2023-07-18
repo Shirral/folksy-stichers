@@ -74,9 +74,11 @@ The second paragraph of text invites the user to sign up, explains the benefits 
 <br><br>
 ![Newsletter signup section](assets/readme/newsletter-section.png)
 
-At the very end of the form is a "Sign up!" button. The button changes its colours upon hovering over it with a mouse. After clicking it, the user is shown a confirmation message by the browser (form attribute: `onSubmit="alert();"`). When they click "OK", the page refreshes.
+At the very end of the form is a "Sign up!" button. The button changes its colours upon hovering over it with a mouse. After clicking it, the user is redirected to a *Thank you* page which confirms their signup was successful. From there, they can click on the "BACK TO THE SITE" button, taking them back to the **Join us** page, or use the navigation bar to go to the page of their choosing.
+
+shown a confirmation message by the browser (form attribute: `onSubmit="alert();"`). When they click "OK", the page refreshes.
 <br><br>
-![Form submission confirmation message](assets/readme/form-confimation.png)
+![Form submission confirmation page](assets/readme/thank-you-page.png)
 
 ### "Contact us" section
 
