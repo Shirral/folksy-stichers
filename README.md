@@ -210,11 +210,27 @@ Below are the sketches made in the planning stage of working on the project, alo
 
 ### Manual Testing: Features
 
+| Feature       | Expected behaviour | Action  | Result
+|---------------|--------------------|---------|----------
+| *Responsive design* | When the browser window is resized, the design should change accordingly so the website remains visually pleasing, easy to read and to use. | The browser window is resized to take up different portions of the screen. | The page elements respond to the changes: images, iframes and headings change their size, the text wraps accordingly, the carousel features different navigation elements on different screen sizes, the grids and modals show different layouts, the text wraps accordinly, the navigation menu turns into a burger icon at certain breakpoint. 
+| *Navigation bar* | When the links in the navigation bar are clicked, they should lead the user to the right destinations: the logo and *Home* - to `index.html`; *Our Stitches* - to `our-stitches.html`; *Contact* - to `join-us.html`. | Each of the links is clicked on each of the pages. | The links lead where they are expected to lead.
+| *Navigation bar: mobile view* | When the collapsed burger icon is tapped, it should expand. When it is tapped again, it should collapse. | The the collapsed burger icon is tapped. The expanded burger icon is tapped. | The burger icon expands and collapses properly.
+| *Hero image section* | When each page is loaded, the hero image should show taking up the entire screen (on screens up to 1920px width). It should load with a dark gradient overlay in the bottom part of the image and a white text with a zoom-in animation. Below the text, a down arrow icon with a pulsing animation should be visible. | Each page is loaded and then refreshed. | The hero image section loads, taking up the entire screen. Each background image loads properly. The gradients loads properly. The text loads properly. The text animation runs properly. The icon loads properly and its animation displays properly.
+| *Hero image section: down arrow icon link* | When the arrow icon is clicked, it should scroll the page down past the hero image section, to the beginning of its main content. | The arrow icon is clicked on each of the pages. | The site scrolls past the hero image section to the first section of the main body of content of each document.
+| *"Welcome" section: carousel* | It should be possible to navigate between the pictures back and forth using both clicking on the navigation arrows and swiping. It should be possible to go to the picture of one's choice by clicking on the dots below the carousel in desktop view. When clicking on the right arrow icon or swiping left while at the last picture, the slides should go back to the beginning - the first picture should be presented again. | Both arrow icons are clicked until all of the images are shown and the first image is presented again. The carousel is swiped in both directions until all of the images are shown and the first image is presented again. All of the dots below the carousel are clicked in desktop view. | The carousel responds to the use of each one of the navigation methods. The images wrap properly - the first image is presented again after the last one.
+|               |      |     |
+|               |      |     |
+|               |      |     |
+|               |      |     |
+|               |      |     |
+
 (stuff with a table here...)
+(add screens, too)
 
 ### Manual Testing: User Stories
 
 (on desktop and mobile)
+(add screens, too)
 
 ### Further Testing
 
@@ -223,6 +239,9 @@ Below are the sketches made in the planning stage of working on the project, alo
 ### Known Bugs
 
 (stuff here)
+(add screens, too)
+
+## Deployment
 
 
 -------------
