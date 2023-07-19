@@ -16,7 +16,7 @@ The website caters both to existing members, who might wish to join the club's F
 
 ### Navigation bar
 
-The navigation bar was built using Bootstrap and customized with CSS. It allows the user to easily move between the website's three pages: the home page, the "Our stitches" page with information and tutorial videos on the most common embroidery stitches used during the club meetings, and the "Join us" page where the contact information and the newsletter signup form can be found.
+The navigation bar was built using Bootstrap and customized with CSS. It allows the user to easily move between the website's three pages: the home page, the "Our Stitches" page with information and tutorial videos on the most common embroidery stitches used during the club meetings, and the "Contact" page where the contact information and the newsletter signup form can be found.
 
 On mobile devices (breakpoint at 767px), the navbar collapses into a burger icon that can be expanded upon tapping.
 <br><br>
@@ -46,7 +46,7 @@ It features a heading, a short paragraph of text that conveys the main goals of 
 
 A heading and three short paragraphs of text are followed by a grid showcasing the information about four kinds meetings. Each grid item contains a picture representing the meeting's theme, its name, the name of the person hosting the meeting, and the information about the date, time, skill level and cost. There is a black semi-transparent overlay on top of the images to provide good contrast between the picture and the the white text on top of it, making it easy to read.
 
-Below the grid, there is a **Want to host a meeting?** subsection. The text invites the user to share their ideas for a meeting they might like to host; below, a link styled as a button invites them to click on it, leading them to the **Join us** page where the club's contact information can be found. The link-button changes its colours upon hovering over it with a mouse.
+Below the grid, there is a **Want to host a meeting?** subsection. The text invites the user to share their ideas for a meeting they might like to host; below, a link styled as a button invites them to click on it, leading them to the Contact page where the club's contact information can be found. The link-button changes its colours upon hovering over it with a mouse.
 <br><br>
 ![Our Meetings section](assets/readme/our-meetings-section.jpg)
 
@@ -54,7 +54,7 @@ Below the grid, there is a **Want to host a meeting?** subsection. The text invi
 
 This section is aimed at embroidery beginners. It's a resource allowing the user to get familiar with the most common stitches routinely used at the club meetings, learn what a given stitch can be used for, and how to sew it.
 
-The section as it appears before the user when they visit the **Our Stitches** page contains a heading, two short paragraphs of text and a grid of eight interactive elements. Each element contains the name of the stitch it presents, a dark gradient below it to make the text visible and keep the visual style of the information boxes consistent across the pages, and picture presenting the stitch used in embroidery below the text and the gradient.
+The section as it appears before the user when they visit the Our Stitches page contains a heading, two short paragraphs of text and a grid of eight interactive elements. Each element contains the name of the stitch it presents, a dark gradient below it to make the text visible and keep the visual style of the information boxes consistent across the pages, and picture presenting the stitch used in embroidery below the text and the gradient.
 <br><br>
 !["Stitches we use" section](assets/readme/stitches-we-use-section.jpg)
 
@@ -66,7 +66,7 @@ The videos are all embedded YouTube videos and the modals were created using Boo
 
 ### Newsletter signup section
 
-The first section on the **Join us** page gives the user the opportunity to stay up to date with the club's activities - either by joining the club's Facebook group where an inline link in the first paragraph leads, or by signing up to the club's newsetter.
+The first section on the Contact page gives the user the opportunity to stay up to date with the club's activities - either by joining the club's Facebook group where an inline link in the first paragraph leads, or by signing up to the club's newsetter.
 
 The second paragraph of text invites the user to sign up, explains the benefits of doing so, and tells the user how often the newsletter would be sent. It is followed by a **signup form**.
 
@@ -74,7 +74,7 @@ The second paragraph of text invites the user to sign up, explains the benefits 
 <br><br>
 ![Newsletter signup section](assets/readme/newsletter-section.png)
 
-At the very end of the form is a "Sign up!" button. The button changes its colours upon hovering over it with a mouse. After clicking it, the user is redirected to a *Thank you* page which confirms their signup was successful. From there, they can click on the "BACK TO THE SITE" button, taking them back to the **Join us** page, or use the navigation bar to go to the page of their choosing.
+At the very end of the form is a "Sign up!" button. The button changes its colours upon hovering over it with a mouse. After clicking it, the user is redirected to a *Thank you* page which confirms their signup was successful. From there, they can click on the "BACK TO THE SITE" button, taking them back to the Contact page, or use the navigation bar to go to the page of their choosing.
 
 shown a confirmation message by the browser (form attribute: `onSubmit="alert();"`). When they click "OK", the page refreshes.
 <br><br>
@@ -149,6 +149,12 @@ The users should be able to find their way around the website easily while the d
 - As a Frequent Visitor, I want to find a way to keep in touch with the other members of the club.
 - As a Frequent Visitor, I want a to be updated with the latest news and information about the club's activities.
 - As a Frequent Visitor, I want to find the club's email address so I can suggest my ideas to the organisers.
+
+### Design
+
+#### Colour scheme
+
+The Folksy Stitchers website features 
 
 -------------
 
