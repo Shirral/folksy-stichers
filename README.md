@@ -200,9 +200,29 @@ Below are the sketches made in the planning stage of working on the project, alo
 
 ## Testing
 
-fw
+### Validator Testing
 
+- **HTML:**
+    - the first round of testing revealed a few minor errors (mismatched opening and closing heading tags, unexpected characters) and warnings (mostly about the usage of `aria-label` attributes), which have been fixed. The subsequent testing revealed no errors. [W3C validator](https://validator.w3.org/) was used.
 
+- **CSS:**
+    - No errors were found in the code. [W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/) was used.
+
+### Manual Testing: Features
+
+(stuff with a table here...)
+
+### Manual Testing: User Stories
+
+(on desktop and mobile)
+
+### Further Testing
+
+(diff devices, browsers, screens; asked friends to help, too)
+
+### Known Bugs
+
+(stuff here)
 
 
 -------------
