@@ -154,7 +154,56 @@ The users should be able to find their way around the website easily while the d
 
 #### Colour scheme
 
-The Folksy Stitchers website features 
+The Folksy Stitchers website features three main colours:
+
+- white `(#ffffff)`
+- dark cyan `(#207178)`
+- orange `(#F29552)`
+
+and two accent colours, used sporadically where a slight colour variation is needed:
+
+- light cyan `(#4FA3AB)`
+- pastel yellow `(#FDF6B1)`
+
+The dark cyan and orange are complimentary colours chosen to go well with one another, and with white - a neutral colour. They are calm and toned down while remaining a friendly, colourful combination - a good representation of the club's character.
+
+### Typography
+
+The website features two fonts:
+
+- **Cookie** - a cursive font used for the headings
+- **Ysabeau Infant** - a sans-serif font used for any other text
+
+Both fonts avoid sharp edges, promoting soft curves and round characters instead. It helps to convey the informal, friendly character of the club.
+
+Both fonts are served by Google Fonts. As the default browser font selection does not have any fonts that would be remotely similar to the ones I chose for the project, no specific fallback fonts have been provided. In the rare event of Google Fonts not being available, the browser is instructed to use their default fonts from its cursive and sans-serif selection. They would all look bad anyway.
+
+### Imagery
+
+The imagery of the website uses pictures that provide the user with the feelings of coziness, friendliness, safety, and fun. The big hero image on top of every page is designed to take up the full screen of the user's browser (up until the screen width of 1920px; above that, a more moderately sized hero image section performs better) to immediately let them know what the site aims to convey and to let them take a moment to feel welcomed before continuing to the main body of the page.
+
+The images, infoboxes, modals and embedded `<iframe>` elements have been given rounded corners for a soft, reassuring look.
+
+### Wireframes
+
+As for this project I did not need to cooperate with other developers, I did not see the need to use digital tools to make "proper" wireframes. I find it much more efficient to sketch out my ideas on paper. While I could had redone them with digital tools later to make them look pretty - and it is something I plan on doing in the future when I need to communicate my ideas to others clearly in the planning stage - in this case, that would had been a waste of time.
+
+Below are the sketches made in the planning stage of working on the project, along with some early notes - please excuse the lined paper, sadly I had no plain paper available at the time.
+
+**Mobile view:**
+
+[pics here]
+
+**Desktop view:**
+
+[pics here]
+
+## Testing
+
+fw
+
+
+
 
 -------------
 
