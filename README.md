@@ -308,11 +308,29 @@ The website has been tested on a variety of screen sizes (resizing the browser w
 
 ### Known Bugs
 
-- VIDEO DOESN'T STOP PLAYING ONCE THE MODAL IS CLOSED!!! :ddd
-- landscape mode on mobile phones - hero img section doesn't look good, text is cropped
-- no underline below active page name in navbar - Chrome, Safari, Opera, FF on iPad. Works on Android phone no problem.
+- **Embedded YouTube videos don't stop playback once the modal they're embedded in is closed.** This is a known issue with embedding YouTube videos in Bootstrap modals and it requires additional JS code to be fixed. I have tried several solutions using external JS code snippets I found on the internet, but my current understanding of JavaScript is not yet good enough for me to have been able to use and adapt the code for the needs of my project at this point.
+
+- **On iPad Air (4th generation), no underline is shown under the active item in the navigation menu.** I haven't been able to determine whether the issue is iPad-specific, iPad-Air-specific, iPad-Air-4 specific, or just my device-specific, as I haven't been able to find any other iPad owners to ask them to check it on their devices. It persisted on every browser I tested the website on (Chrome, Safari, Opera, Firefox). The issue does not occur on Android devices nor desktop browsers.
+
+- **On iPad Air (4th generation), there is about a 20px-high white gap between the footer and the bottom on the screen when the page is viewed on Opera and Firefox browsers.** I haven't been able to determine whether the issue is iPad-specific, iPad-Air-specific, iPad-Air-4 specific, or just my device-specific, as I haven't been able to find any other iPad owners to ask them to check it on their devices. The issue does not occur on Chrome and Safari browsers, nor or Opera and Firefox browsers on Android devices and desktop browsers.
+
+
+
 - pictures are not big enough for big screens - sides cut off on 4K!
 (add screens, too)
+
+### Bugs fixed & problems overcome
+
+- landscape mode on mobile phones - hero img section doesn't look good, text is cropped
+- after changing welcome id to a class, I forgot to give a new id to the section on main - the arrow stopped working. testing yay
+- other internal links not being linked - logo not leading home
+- accidentally named my class like an existing bootstrap class I wasn't aware of, which caused some unexpected changes
+- form submission alert & refresh: no work once project was deployed on GitHub pages -> replaced the alert with a redirect to a separate "thank you" page 
+- navbar burger menu not working as should - tutor support - outdated class property bootstrap
+- divs clickable - https://www.w3docs.com/snippets/css/how-to-make-a-div-a-clickable-link.html helped with the idea of display:block
+- couldn't change border colour in focused text fields - this site helped: https://stackoverflow.com/questions/69901519/cant-change-border-color-when-input-field-is-active (adding outline: none)
+- grid overlaps footer - added padding and margin to fix it, but why does it do that in the first place? Not the best solution - https://stackoverflow.com/questions/48214281/why-does-grid-gap-cause-an-overflow : gapset in % was the issue! Even with fr units
+- how do do a modal without JS?! - Bootstrap to the rescue
 
 ## Deployment
 
