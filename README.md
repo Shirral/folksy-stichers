@@ -206,6 +206,11 @@ Below are the sketches made in the planning stage of working on the project, alo
 - **CSS:**
     - No errors were found in the custom CSS code. [W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/) was used.
 
+- **Performance, accessibility, best practices and SEO:**
+
+    - The above have been tested with [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk). The Performance is the weakest point of the website, with a score of 73% (the yellow zone). Some steps suggested by Lighthouse have already been taken - such as compressing the images and using lazy loading - but there's still room for improvements.
+    The Accesibility, Best Practices and SEO are all in the green zone, with 95%, 100% and 100%, respectively.
+
 ### Manual Testing: Features
 
 | Feature       | Expected behaviour | Action  | Result
@@ -311,6 +316,9 @@ The website has been tested on a variety of screen sizes (resizing the browser w
 
 ## Deployment
 
+jjj
+
+## Technologies and Resources used (credits)
 
 -------------
 
@@ -321,3 +329,7 @@ style:
 - gradient dark transp
 - rounded corners
 - canvas bg
+
+----------
+
+FIX LANDSCAP ON MOBILEZZZ
