@@ -371,6 +371,17 @@ The project was deployed to GitHub Pages as follows:
 
     ![The link to the deployed website.](assets/readme/deployment-5.png)
 
+### Forking the project on GitHub
+
+If, for whatever reason, anyone would like to get themselves a copy of this project to tinker with on their own - feel free to do so! Here is how to do it so you can have your own copy of the entire repository that you can do whatever you please with, without causing any changes to the original:
+
+1. Open the repository of this project on GitHub. It can be found [here](https://github.com/Shirral/folksy-stichers).
+
+2. Find he "Fork" button located between the "Watch" and "Star" buttons, near the top of the repository page.
+
+    ![Forking the repository.](assets/readme/forking.png)
+
+3. Done! Go back to your profile - you will find the copy of the project in your repositories.
 
 ## Technologies and Resources used (credits)
 
