@@ -790,6 +790,29 @@ input[type="submit"]:hover {
     }
 }
 
+@media screen and (orientation: landscape) and (max-height: 600px) {
+
+    .hero-text {
+        margin: 0 40px 0;
+    }
+
+}
+
+@media screen and (orientation: landscape) and (max-height: 400px) {
+
+    .hero-text {
+        margin: 0 40px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 60px;
+    }
+
+    .hero-text h2 {
+        font-size: 40px;
+    }
+}
+
 /* Flickity carousel */
 
 @media screen and (max-width: 1560px) {
