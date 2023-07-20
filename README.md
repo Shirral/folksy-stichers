@@ -297,11 +297,16 @@ Below are the sketches made in the planning stage of working on the project, alo
 
 ### Further Testing
 
-(diff devices, browsers, screens; asked friends to help, too)
+The website has been tested on a variety of screen sizes (resizing the browser window on desktop, tablet, smartphones), browsers (Chrome, Safari, Opera, Edge, Brave, Firefox), and devices. Family and friends have been asked to perform additional testing on devices I had no access to (like a MacBook, or non-Apple tablets). The website has performed as expected on all the screen/device/browser combinations, except for the iPad Air (4th generation), which would not display an underline under the currently active page in the navigation bar - no matter the browser (tested with Chrome, Safari, Opera, and Firefox). It would also display a thin white bar underneath the footer while on Opera and Firefox. The Android and desktop devices using the same browsers would not have that issue. Other than that, the device would display everything properly.
+
+(screens here)
 
 ### Known Bugs
 
-(stuff here)
+- VIDEO DOESN'T STOP PLAYING ONCE THE MODAL IS CLOSED!!! :ddd
+- landscape mode on mobile phones - hero img section doesn't look good, text is cropped
+- no underline below active page name in navbar - Chrome, Safari, Opera, FF on iPad. Works on Android phone no problem.
+- pictures are not big enough for big screens - sides cut off on 4K!
 (add screens, too)
 
 ## Deployment
