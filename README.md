@@ -12,7 +12,7 @@ The website caters both to existing members, who might wish to join the club's F
 
 - **responsive design**: the website responds to a wide variety of screen sizes. Individual elements of each page have been given their own media queries featuring breakpoints adjusted as needed for the element to look good on a particular screen instead of picking a few set breakpoints and ignoring the screens in between which might need additional adjustments. 
 <br><br>
-![Responsive Design](assets/readme/responsive-design.jpg)
+![Responsive Design](assets/readme/responsive-design.png)
 
 ### Navigation bar
 
@@ -165,6 +165,8 @@ and two accent colours, used sporadically where a slight colour variation is nee
 
 The dark cyan and orange are complimentary colours chosen to go well with one another, and with white - a neutral colour. They are calm and toned down while remaining a friendly, colourful combination - a good representation of the club's character.
 
+![Mobile view - sketches](assets/readme/colour-palette.png)
+
 ### Typography
 
 The website features two fonts:
@@ -190,11 +192,15 @@ Below are the sketches made in the planning stage of working on the project, alo
 
 **Mobile view:**
 
-[pics here]
+![Mobile view - sketches](assets/readme/wireframes-mobile.png)
 
 **Desktop view:**
 
-[pics here]
+![Desktop view - sketches](assets/readme/wireframes-desktop.png)
+
+**Other notes:**
+
+![Early design notes](assets/readme/wireframes-notes.png)
 
 ## Testing
 
@@ -301,35 +307,48 @@ Below are the sketches made in the planning stage of working on the project, alo
     - Alternatively, a Frequent Visitor might remember there was a mention of suggesting one's own ideas somewhere on the club's home page. Scrolling it, they reach the "Want to host a meeting?" subsection and click on the link leading them to the "Contact" page where they find the club's email address.
 
 ### Further Testing
-
-The website has been tested on a variety of screen sizes (resizing the browser window on desktop, tablet, smartphones), browsers (Chrome, Safari, Opera, Edge, Brave, Firefox), and devices. Family and friends have been asked to perform additional testing on devices I had no access to (like a MacBook, or non-Apple tablets). The website has performed as expected on all the screen/device/browser combinations, except for the iPad Air (4th generation), which would not display an underline under the currently active page in the navigation bar - no matter the browser (tested with Chrome, Safari, Opera, and Firefox). It would also display a thin white bar underneath the footer while on Opera and Firefox. The Android and desktop devices using the same browsers would not have that issue. Other than that, the device would display everything properly.
-
-(screens here)
+The website has been tested on a variety of screen sizes (resizing the browser window on desktop, tablet, smartphones), browsers (Chrome, Safari, Opera, Edge, Brave, Firefox), and devices. Family and friends have been asked to perform additional testing on devices I had no access to (like a MacBook, or non-Apple tablets). The website has performed as expected on all the screen/device/browser combinations, except for the iPad Air (4th generation), which would not display an underline under the currently active page in the navigation bar - no matter the browser (tested with Chrome, Safari, Opera, and Firefox). It would also display a thin white bar underneath the footer on Opera and Firefox. The Android and desktop devices using the same browsers would not have that issue. Other than that, the device would display everything properly. Refer to the "Known Bugs" section below to see the screenshots of the issues.
 
 ### Known Bugs
 
-- **Embedded YouTube videos don't stop playback once the modal they're embedded in is closed.** This is a known issue with embedding YouTube videos in Bootstrap modals and it requires additional JS code to be fixed. I have tried several solutions using external JS code snippets I found on the internet, but my current understanding of JavaScript is not yet good enough for me to have been able to use and adapt the code for the needs of my project at this point.
+- **Embedded YouTube videos don't stop playback once the modal they're embedded in is closed. The sound can still be heard.** This is a known issue with embedding YouTube videos in Bootstrap modals and it requires additional JS code to be fixed. I have tried several solutions using external JS code snippets I found on the internet, but my current understanding of JavaScript is not yet good enough for me to have been able to use and adapt the code for the needs of my project at this point.
 
 - **On iPad Air (4th generation), no underline is shown under the active item in the navigation menu.** I haven't been able to determine whether the issue is iPad-specific, iPad-Air-specific, iPad-Air-4 specific, or just my device-specific, as I haven't been able to find any other iPad owners to ask them to check it on their devices. It persisted on every browser I tested the website on (Chrome, Safari, Opera, Firefox). The issue does not occur on Android devices nor desktop browsers.
+<br><br>
+!["No underline under the active item"](assets/readme/bug-ipad-navbar.png)
 
 - **On iPad Air (4th generation), there is about a 20px-high white gap between the footer and the bottom on the screen when the page is viewed on Opera and Firefox browsers.** I haven't been able to determine whether the issue is iPad-specific, iPad-Air-specific, iPad-Air-4 specific, or just my device-specific, as I haven't been able to find any other iPad owners to ask them to check it on their devices. The issue does not occur on Chrome and Safari browsers, nor or Opera and Firefox browsers on Android devices and desktop browsers.
+<br><br>
+!["White space displayed below the footer"](assets/readme/bug-ipad-footer.jpg)
 
-
-
-- pictures are not big enough for big screens - sides cut off on 4K!
-(add screens, too)
+- **Most images are too small for 4K screens and will display with white space on the sides.** It would be good to provide bigger versions of the images for devices with big screens in the future, or at least to change the way the images are displayed on these using `object-fit: cover`.
+<br><br>
+!["Images displaying with white space on the sides on 4k screens"](assets/readme/bug-4-k-images.jpg)
 
 ### Bugs fixed & problems overcome
 
-- landscape mode on mobile phones - hero img section doesn't look good, text is cropped
-- after changing welcome id to a class, I forgot to give a new id to the section on main - the arrow stopped working. testing yay
-- other internal links not being linked - logo not leading home
-- accidentally named my class like an existing bootstrap class I wasn't aware of, which caused some unexpected changes
-- form submission alert & refresh: no work once project was deployed on GitHub pages -> replaced the alert with a redirect to a separate "thank you" page 
-- navbar burger menu not working as should - tutor support - outdated class property bootstrap
-- divs clickable - https://www.w3docs.com/snippets/css/how-to-make-a-div-a-clickable-link.html helped with the idea of display:block
+- **Hero image section would present the cover text cut in half in the landscape mode in mobile phones.** 
+    - adding new media queries for the section solved the problem.
+
+- **Once the project was deployed to GitHub pages, submitting the form on the Contact page would result in an error 405 page.** 
+    - Changing the form attribute `method` from `post` to `get` and sending the user to a "Thank you" page instead of a displaying a browser alert as a confirmation for the user solved the issue. 
+
+- **On mobile devices, the expandable Bootstrap burger menu icon would either not position itself at the very right side of the navigation menu, or it would stay expanded at all times, depending on the approach I took.** 
+    - It turned out I was using and overriding obsolete classes from an older version of Bootstrap which would not work as expected with Bootstrap 5. Using the right classes solved the problem.
+
+- **The grid on the "Our Stitches" page was overlapping the footer.**
+    - Before I learned what causes the issue, I compensated for it by setting additiona margins and paddings, which was not the most elegant solution. It turned out the culprit was the `gap` property set in `%` units - it can cause overflow when not used carefully. Using `px` units for the `row-gap` instead solved the problem.
+
+- **Several links stopped working after changes were made to the `id`'s they were linking to and I forgot to update the links.** Fortunately, this was caught early on.
+
+- **The logo link did not work.** I forgot to replace the `#` with an actual address of the page after having copied the navbar to other pages. Fortunately, this was caught early on.
+
+- At some point, **I accidentally named my class like an existing bootstrap class the existence of which I wasn't aware of**, which caused some unexpected changes.
+
+
+
 - couldn't change border colour in focused text fields - this site helped: https://stackoverflow.com/questions/69901519/cant-change-border-color-when-input-field-is-active (adding outline: none)
-- grid overlaps footer - added padding and margin to fix it, but why does it do that in the first place? Not the best solution - https://stackoverflow.com/questions/48214281/why-does-grid-gap-cause-an-overflow : gapset in % was the issue! Even with fr units
+- grid overlaps footer - added padding and margin to fix it, but why does it do that in the first place? Not the best solution - https://stackoverflow.com/questions/48214281/why-does-grid-gap-cause-an-overflow : gap set in % was the issue! Even with fr units
 - how do do a modal without JS?! - Bootstrap to the rescue
 
 ## Deployment
