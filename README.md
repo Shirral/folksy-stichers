@@ -75,8 +75,6 @@ The second paragraph of text invites the user to sign up, explains the benefits 
 ![Newsletter signup section](assets/readme/newsletter-section.png)
 
 At the very end of the form is a "Sign up!" button. The button changes its colours upon hovering over it with a mouse. After clicking it, the user is redirected to a *Thank you* page which confirms their signup was successful. From there, they can click on the "BACK TO THE SITE" button, taking them back to the Contact page, or use the navigation bar to go to the page of their choosing.
-
-shown a confirmation message by the browser (form attribute: `onSubmit="alert();"`). When they click "OK", the page refreshes.
 <br><br>
 ![Form submission confirmation page](assets/readme/thank-you-page.png)
 
@@ -221,13 +219,67 @@ Below are the sketches made in the planning stage of working on the project, alo
 | *"Our Meetings" section* | All the information should be displayed in a visually pleasing, clear and easy to read way. The links should take the user to the right destinations: the *our tutorials* inline link - to `our-stitches.html`, the *GET IN TOUCH* button-styled link - to `join-us.html`. The *GET IN TOUCH* link should change its background colour on being hovered upon on desktop devices. | The page is refreshed. Both links are clicked. The *GET IN TOUCH* link is hovered upon on a desktop device. | The information is displayed in a visually pleasing, clear and easy to read way. Both links lead where they should. The *GET IN TOUCH* link changes its background colour on being hovered upon.
 | *"Stitches we use" section* | All the information should be displayed in a visually pleasing, clear and easy to read way. Each grid element should trigger a modal when clicked. | The page is refreshed. Every grid element is clicked. | The information is displayed in a visually pleasing, clear and easy to read way. Clicking on every grid item results in the appearance of the relevant modal. 
 | *"Stitches we use" section: modal* | All the information should be displayed in a visually pleasing, clear and easy to read way. The video and the text should be relevant to the stitch the modal is about, the video should work when run, and should not autoplay. The modal should disappear when the user clicks on the *Close* button or when they click away from the modal. | Every modal is called separately. The video is played, then stopped. The *Close* button is clicked. The darkened space around the modal is clicked. | The information is displayed in a visually pleasing, clear and easy to read way. Each video is relevant to the modal's topic. Each video runs properly and does not autoplay. Clicking on the *Close* button or away from the modal closes it.
-|               |      |     |
-|               |      |     |
+| *Newsletter signup section* | All the information should be displayed in a visually pleasing, clear and easy to read way. The inline link to a Facebook group should lead to Facebook and open in a new tab. | The page is refreshed. The link is clicked. | The information is displayed in a visually pleasing, clear and easy to read way. The link opens in a new tab and leads to Facebook.
+| *Newsletter signup section: form* | The form should not allow the user to submit it if the *Name* and *Email* fields are not filled. The *Sign up!* button should reverse its colour scheme when hovered upon. The form should take the user to `thank-you.html` upon submitting it by clicking on the button. | Submitting an empty form is attempted. Submitting a form with only the *Name* field filled in is attempted. Submitting a form with only the *Email* field filled in is attempted. Submitting a valid form is attempted. The *Sign up!* button is hovered upon. | The form only allowed the user to submit the information if both the *Name* field and the *Email* field were filled in. The *Sign up!* button reversed its colour scheme when hovered upon. When clicked, the form was submitted and the `thank-you.html` page was loaded.
+|  *Newsletter signup section: thank you page* | All the information should be displayed in a visually pleasing, clear and easy to read way. The *BACK TO THE SITE* link-button should reverse its colour scheme when hovered upon. When clicked, it should take the user back to `join-us.html`. | The page is loaded. The link-button is hovered upon. Then, it is clicked. | The information is displayed in a visually pleasing, clear and easy to read way. The link-button reversed its colour scheme when hovered upon. When clicked, it directed the user to `join-us.html`.
+| *"Contact us" section* | All the information should be displayed in a visually pleasing, clear and easy to read way. The email link should prompt the user's defaut email client to open and start an email adressed to "hello@folksystitchers.com" when clicked on. | The page is refreshed. The email address is clicked. | The information is displayed in a visually pleasing, clear and easy to read way. Clicking on the email address runs the user's default email client (if they have one) and starts a new email addressed to the right address.
+| *"Where to find us" section* | All the information should be displayed in a visually pleasing, clear and easy to read way. The embedded map should load and show the address location in the centre. | The page is refreshed. | The information is displayed in a visually pleasing, clear and easy to read way. The map loads and shows the location correctly.
+| *Footer* | The footer's three icons and the text below them should be displayed in the centre of the footer. Each icon should lead to an external site it represents - Facebook, YouTube, and Instagram - when it is clicked. Each page should open in a new tab. | The page is refreshed. Each icon is clicked on. | The footer displays correctly. Each icon leads to the right site, which opens in a separate tab.
 
-(stuff with a table here...)
-(add screens, too)
+### Manual Testing: Testing User Stories from the UX/UI section
 
-### Manual Testing: User Stories
+**1. First Time Visitor Goals**
+
+- *As a First Time Visitor, I want to learn what the club is about.*
+    - Upon visiting the home page, a big hero image showcasing an embroidery with a big text saying "Welcome to Our Embroidery Club!" is shown. Chances are it's about embroidery.
+    - If the user scrolls down or clicks on the down arrow icon, they are taken to the "Welcome" section which explains what the club is all about. The picture gallery showcases photos taken during the club meetings, and the "Our meetings" section right below praises the benefits of embroidering, describes how the club meetings work and shows the ones available, and invites the newcomer to join in. 
+
+- *As a First Time Visitor, I want to learn what kind of activities the club offers.*
+
+    - Reading the "Welcome" section and looking at the pictures there lets the user know the club is a social space where people come together to enjoy embroidery as a group.
+    - Scrolling down, the user reaches the "Our meetings" section, where the the club's regular meetings are listed along with the information about their theme, suitability for people with different amount of experience in embroidery, their cost, date, time, and who the host is.
+
+- *As a First Time Visitor, I want to learn if I can join without any prior embroidery experience.*
+
+    - Scrolling the home page, the user quickly reaches "Our Meetings" section. There, they see the text stating that everybody's welcome to come, and that even the beginners can start creating beautiful things right away. There's also a reassuring message stating that the hosts will be prepared to teach them what they need to get started and will be able to sugest projects suitable for beginners, and a link to a page where they can learn some basics even before coming to the meeting if they wanted to. 
+
+- *As a First Time Visitor, I want to learn what is the character of the club - is it for people serious about learning and perfecting the craft? Or more laid back with a bigger focus on the social aspect?*
+
+    - The user visits the home page and sees the name of the club: *Folksy Stitchers*. It might have something to do with the character of the club.
+    - The user scrolls down to the "Welcome" section. It clearly states that the club promotes the laid-back, friendly atmosphere.
+    - The user scrolls down to the "Our Meetings" section. They see that there aren't fixed closed groups; there is a variety of themed meetings with suggested skill levels, but at the same time, there is information that the hosts are able to acommodate people of any amount of experience and that the beginners are very welcome. There is no signing up, booking spots or paying in advance, anyone can just turn up on the day and join - it's an informal, welcoming space.
+
+- *As a First Time Visitor, I want to find the club's social media pages to look up what kind of things they post there.*
+
+    - If the user is accustommed to the modern practices, they will either start their search at the very top, or the very bottom of the page. The later will get them to the footer where the links to the club's social media pages can be found.
+    - If the user doesn't know where the social media links are usually found, they will most likely scroll the home page until they reach the bottom. They will then find the footer where the links to the club's social media pages can be found.
+
+**2. Returning Visitor Goals**
+
+- *As a Returning Visitor, I want to ask someone questions about the club.*
+
+    - The navigation menu sat on the very top of each page features a link to the "Contact" page, where the club's email address can be found.
+    - Scrolling the home page reveals the "Want to host a meeting?" subsection. While aimed specifically at people who would like to run a club event themselves, here the user can read that the club can be contacted either my email, or in person. There is a link saying "GET IN TOUCH"; clicking on it will lead the user to the "Contact" page.
+    - At the bottom of each page is the footer, featuring the links to the club's social media channels. The club can be messaged there, too.
+
+- *As a Returning Visitor, I want to learn how much do the meetings cost.*
+
+    - The user goes back to the "Our Meetings" section where the club meetings are listed. Without having to click on anything else, they can see the cost of each meeting in its information box.  
+
+- *As a Returning Visitor, I want to learn if I'd need to bring anything to a meeting if I were to come.*
+    
+    - The user goes back to the "Our Meetings" section where the information about the club meetings is to be found. There, they can read that the basic materials they will need are all provided.
+
+- *As a Returning Visitor, I want to learn if I can prepare a little bit before coming to my first meeting - I don't want the host to have to focus on teaching me the most basic things while the rest of the group waits.*
+
+    - The user might have already explored the club's website on their previous visit. If they have, they will navigate to "Our Stitches" website using the navigation bar on the top of the website. They can learn the basics there.
+    - If they haven't explored the website earlier, the user might go back to the "Our Meetings" section where the information about the club meetings is to be found. There, they will find that they can learn the basics on "Our Stitches" page of the club's website. The link in the "Our Meetings" section will lead them there.
+
+- *As a Returning Visitor, I want to learn where do the meetings take place.*
+
+    - 
+
+
 
 (on desktop and mobile)
 (add screens, too)
