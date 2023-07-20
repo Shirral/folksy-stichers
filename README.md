@@ -345,12 +345,6 @@ The website has been tested on a variety of screen sizes (resizing the browser w
 
 - At some point, **I accidentally named my class like an existing bootstrap class the existence of which I wasn't aware of**, which caused some unexpected changes.
 
-
-
-- couldn't change border colour in focused text fields - this site helped: https://stackoverflow.com/questions/69901519/cant-change-border-color-when-input-field-is-active (adding outline: none)
-- grid overlaps footer - added padding and margin to fix it, but why does it do that in the first place? Not the best solution - https://stackoverflow.com/questions/48214281/why-does-grid-gap-cause-an-overflow : gap set in % was the issue! Even with fr units
-- how do do a modal without JS?! - Bootstrap to the rescue
-
 ## Deployment
 
 jjj
