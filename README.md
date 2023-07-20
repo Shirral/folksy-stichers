@@ -347,20 +347,30 @@ The website has been tested on a variety of screen sizes (resizing the browser w
 
 ## Deployment
 
-jjj
+### GitHub Pages
+
+The project was deployed to GitHub Pages as follows:
+
+1. I opened GitHub and located the project's repository.
+
+    ![Locating the project repository on GitHub.](assets/readme/deployment-1.png)
+
+2. I entered the repository and opened its settings.
+
+    ![Locating the repository's Settings.](assets/readme/deployment-2.png)
+
+3. There, in the menu on the left of the screen, I located Pages.
+
+    ![Locating Pages in the repository's Settings.](assets/readme/deployment-3.png)
+
+4. Under "Build and development", there is a "Branch" section. I chose the `main` branch from the dropdown menu and clicked on the `Save` button.
+
+    ![Deploying the site from a branch.](assets/readme/deployment-4.png)
+
+5. That's it! The site is now deployed and can be accessed from the link created by GitHub. The link can be found on the top of the "Pages" page once it refreshes.
+
+    ![The link to the deployed website.](assets/readme/deployment-5.png)
+
 
 ## Technologies and Resources used (credits)
 
--------------
-
-style:
-
-- colours
-- fonts
-- gradient dark transp
-- rounded corners
-- canvas bg
-
-----------
-
-FIX LANDSCAP ON MOBILEZZZ
