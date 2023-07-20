@@ -277,12 +277,23 @@ Below are the sketches made in the planning stage of working on the project, alo
 
 - *As a Returning Visitor, I want to learn where do the meetings take place.*
 
-    - 
+    - As the address information is usually found in the "Contact" area of most websites, the user might navigate there using the navigation menu. They will find the location of the club meetings there, along with the exact address of the place and a map showing it in the neighbouring area.
+    - The user might also go back to the "Our Meetings" section where the information about the club meetings is to be found. They will find the location of the meetings there.
 
+**2. Frequent Visitor Goals**
 
+- *As a Frequent Visitor, I want to find a way to keep in touch with the other members of the club.*
 
-(on desktop and mobile)
-(add screens, too)
+    - A Frequent Visitor will most likely know the best place to look for a feature like this would be the "Contact" page. They navigate there using the navigation menu. There, they find a link to the club's Facebook group where the club members can interact with one another.
+
+- *As a Frequent Visitor, I want a to be updated with the latest news and information about the club's activities.*
+
+    - A Frequent Visitor will most likely know the best place to look for a feature like this would be the "Contact" page. They navigate there using the navigation menu. There, they find a newsletter signup form which they have likely seen before. They can fill it to be informed about the latest news and information about the club's activities.
+
+- *As a Frequent Visitor, I want to find the club's email address so I can suggest my ideas to the organisers.*
+
+    - A Frequent Visitor will most likely know the best place to look for a feature like this would be the "Contact" page. They navigate there using the navigation menu. The club's email address can be found there.
+    - Alternatively, a Frequent Visitor might remember there was a mention of suggesting one's own ideas somewhere on the club's home page. Scrolling it, they reach the "Want to host a meeting?" subsection and click on the link leading them to the "Contact" page where they find the club's email address.
 
 ### Further Testing
 
