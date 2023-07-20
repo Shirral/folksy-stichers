@@ -891,6 +891,14 @@ input[type="submit"]:hover {
 
 /* Our Meetings section */
 
+@media screen and (min-width: 1950px) {
+
+    .meetings-griditem-infobox {
+        align-content: end;
+    }
+
+}
+
 @media screen and (max-width: 1500px) {
 
     #meetings-text p {
