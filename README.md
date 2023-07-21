@@ -299,7 +299,7 @@ Below are the sketches made in the planning stage of working on the project, alo
     - As the address information is usually found in the "Contact" area of most websites, the user might navigate there using the navigation menu. They will find the location of the club meetings there, along with the exact address of the place and a map showing it in the neighbouring area.
     - The user might also go back to the "Our Meetings" section where the information about the club meetings is to be found. They will find the location of the meetings there.
 
-**2. Frequent Visitor Goals**
+**3. Frequent Visitor Goals**
 
 - *As a Frequent Visitor, I want to find a way to keep in touch with the other members of the club.*
 
@@ -325,7 +325,7 @@ The website has been tested on a variety of screen sizes (resizing the browser w
 <br><br>
 !["No underline under the active item"](assets/readme/bug-ipad-navbar.png)
 
-- **On iPad Air (4th generation), there is about a 20px-high white gap between the footer and the bottom on the screen when the page is viewed on Opera and Firefox browsers.** I haven't been able to determine whether the issue is iPad-specific, iPad-Air-specific, iPad-Air-4 specific, or just my device-specific, as I haven't been able to find any other iPad owners to ask them to check it on their devices. The issue does not occur on Chrome and Safari browsers, nor or Opera and Firefox browsers on Android devices and desktop browsers.
+- **On iPad Air (4th generation), there is about a white gap between the footer and the bottom on the screen when the page is viewed on Opera and Firefox browsers.** I haven't been able to determine whether the issue is iPad-specific, iPad-Air-specific, iPad-Air-4 specific, or just my device-specific, as I haven't been able to find any other iPad owners to ask them to check it on their devices. The issue does not occur on Chrome and Safari browsers, nor or Opera and Firefox browsers on Android devices and desktop browsers.
 <br><br>
 !["White space displayed below the footer"](assets/readme/bug-ipad-footer.jpg)
 
@@ -469,7 +469,7 @@ If, for whatever reason, anyone would like to get themselves a copy of this proj
 - [Fixing the responsiveness of embedded Google Maps](https://blog.hubspot.com/website/how-to-embed-google-map-in-html#:~:text=The%20default%20Google%20Maps%20embed,it%20in%20your%20HTML%20document.)
 - [Creating modals with Bootstrap](https://www.jqueryscript.net/demo/confirm-dialog-button-bootstrap/)
 - [Setting border colour in focused text fields](https://stackoverflow.com/questions/69901519/cant-change-border-color-when-input-field-is-active)
-- [W3 - visiting to consult the HTML/CSS documentation throughout working on the project](https://www.w3schools.com/css/)
+- [W3 - visiting to consult the HTML/CSS documentation throughout working on the project](https://www.w3schools.com/)
 
 ### Project guidance & assistance:
 
