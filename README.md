@@ -443,6 +443,7 @@ If, for whatever reason, anyone would like to get themselves a copy of this proj
 - **[Davies Designs Studio's photo](https://unsplash.com/photos/RmUPheUyXBU)** @ Unsplash
 - **[Bru-nO's photo](https://pixabay.com/photos/embroidery-embroidered-craft-3524900/)** @ Pixabay
 - **[Tony Sebastian's photo](https://www.pexels.com/photo/photo-of-an-embroidery-hoop-with-a-christmas-tree-pattern-15118151/)** @ Pexels
+- **the images of the club members for the carousel (`club-meeting.jpg`, `club-meeting-2.jpg`, `man-embroidering.jpg`)** have been generated with VEED.IO AI Image Generator.
 
 ### Videos used:
 
@@ -462,6 +463,10 @@ If, for whatever reason, anyone would like to get themselves a copy of this proj
 **Sarah's Hand Embroidery** on YouTube
 - **[How to do French Knots](https://youtu.be/mVqPzHw1x0w)** by 
 **Sarah's Hand Embroidery** on YouTube
+
+### Text used:
+- the text in the "Welcome" section, the meta description of index.html, and the descriptions of the stitches on the "Our Stitches" page have been generated with ChatGPT. These were then edited to fit the needs of the project better.
+- everything else was written by me.
 
 ### How-to references used:
 
