@@ -383,5 +383,90 @@ If, for whatever reason, anyone would like to get themselves a copy of this proj
 
 3. Done! Go back to your profile - you will find the copy of the project in your repositories.
 
-## Technologies and Resources used (credits)
+## Technologies and Resources used
 
+### Programming languages used:
+
+- **HTML5**
+- **CSS3**
+
+### Frameworks & Libraries Used:
+
+- **[Bootstrap 5.3.0](https://getbootstrap.com/docs/5.3/getting-started/introduction/)** - used to build the navigation bar with the collapsible burger icon menu, the modals, and to help with the styling of the website.
+- **[Google Fonts](https://fonts.google.com/)** - used to supply two fonts used throughout the website: *Cookie* and *Ysabeau Infant*.
+- **[Font Awesome v.6](https://fontawesome.com/)** - used to supply the social media icons in the footer, the down arrow icon in the hero image sections, the email and location icons in the "Contact" page, and the thumbs up icon on the "Thank you" page.
+- **[Flickity](https://flickity.metafizzy.co/)** - used to build the carousel gallery in the "Welcome" section of the home page. [GNU license here.](https://www.gnu.org/licenses/gpl-3.0.html)
+
+### Software & other technologies used:
+
+- **[Visual Studio Code](https://code.visualstudio.com/)** - IDE the project was written in. Used with the [Live Server (Five Server)](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server), [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate) and [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion) extensions.
+- **[GitHub Desktop](https://desktop.github.com/)** - used for version control and pushing commits to GitHub.
+- **[GitPod](https://www.gitpod.io/)** - used solely for contacting Code Institute's Tutor Support.
+- **[Affinity Photo](https://store.serif.com/en-gb/update/windows/photo/1/)** - used for image editing & creating the mockup picture.
+- **[Canva](https://www.canva.com/)** - used to get the screens mockup base.
+- **[Microsoft Photos](https://apps.microsoft.com/store/detail/microsoft-photos/9WZDNCRFJBH4)** - used for quick cropping and resizing of images.
+- **[Squoosh](https://squoosh.app/)** - used for compressing images.
+- **[Runway](https://app.runwayml.com/dashboard)** - used for expanding and upscaling images.
+- **[VEED.IO AI Image Generator](https://www.veed.io/tools/ai-image-generator)** - used to generate three images of the club members for the carousel (`club-meeting.jpg`, `club-meeting-2.jpg`, `man-embroidering.jpg`).
+- **[DALL-E 2](https://openai.com/dall-e-2)** - used to edit the images generated with VEED.IO AI Image Generator.
+- **[ChatGPT](https://openai.com/blog/chatgpt)** - used to generate text for the "Welcome" section, the meta description of index.html, and the descriptions of the stitches on the "Our Stitches" page. These were then edited to fit the needs of the project better.
+
+### Pre-made code used:
+
+- the CSS code for the zoom-in text animation in the hero image section was taken from the [Love Running code-along training project](https://github.com/Shirral/Love-Running), where it was used for the hero image itself. 
+
+### Images used:
+
+- **[Nasim Keshmiri's photo](https://unsplash.com/photos/kXu175oATys)** @ Unsplash
+- **[monika1607's photo](https://pixabay.com/photos/handwork-embroidery-2943250/)** @ Pixabay
+- **[makamuki0's photo](https://pixabay.com/photos/curtain-burlap-embroidery-cloth-1202946/)** @ Pixabay
+- **[Büşra Şahin's photo](https://www.pexels.com/photo/close-up-of-embroidered-roses-13631020/)** @ Pexels
+- **[Frannie D's photo](https://unsplash.com/photos/W7cP6n0NKjc)** @ Unsplash
+- **[TinaDemyanchuk's photo](https://pixabay.com/photos/embroidery-decoration-hobby-5308954/)** @ Pixabay
+- **[Santoshi Guruju's photo](https://unsplash.com/photos/4BH85qJQi_s)** @ Unsplash
+- **[cottonbro studio's photo](https://www.pexels.com/photo/a-man-and-a-woman-meeting-up-in-a-restaurant-6321255/)** @ Pexels
+- **[bluemorphos's photo](https://pixabay.com/photos/embroidery-needlework-cross-stitch-942255/)** @ Pixabay
+- **[Barbara Krysztofiak's photo](https://unsplash.com/photos/Xe2JI5rwZ8I)** @ Unsplash
+- **[Annie Spratt's photo](https://unsplash.com/photos/xTaOPMa6wAE)** @ Unsplash
+- **[Ronin's photo](https://unsplash.com/photos/dOIAbk3KtjA)** @ Unsplash
+- **[Toa Heftiba's photo](https://unsplash.com/photos/ScuVVivQPTc)** @ Unsplash
+- **[Gio Gix's photo](https://unsplash.com/photos/iKO49WSTJaU)** @ Unsplash
+- **[Marina Meyer's photo](https://www.pexels.com/photo/handmade-embroidery-with-cat-design-9480590/)** @ Pexels
+- **[Davies Designs Studio's photo](https://unsplash.com/photos/RmUPheUyXBU)** @ Unsplash
+- **[Bru-nO's photo](https://pixabay.com/photos/embroidery-embroidered-craft-3524900/)** @ Pixabay
+- **[Tony Sebastian's photo](https://www.pexels.com/photo/photo-of-an-embroidery-hoop-with-a-christmas-tree-pattern-15118151/)** @ Pexels
+
+### Videos used:
+
+- **[How to do Running Stitch](https://youtu.be/fgzb7O7tkzQ)** by 
+**Sarah's Hand Embroidery** on YouTube
+- **[How to do Back Stitch](https://youtu.be/vLafsVQyEjU)** by 
+**Sarah's Hand Embroidery** on YouTube
+- **[How to Satin Stitch - Embroidery Tutorial for Beginners](https://youtu.be/qkCq2p7PJOQ)** by 
+**Paraffle Embroidery** on YouTube
+- **[How to do Cross Stitch (Traditional method)](https://youtu.be/qOZfqyHFn6A)** by 
+**Sarah's Hand Embroidery** on YouTube
+- **[How to do Lazy Daisy Stitch](https://youtu.be/jYTDjIq36Zg)** by 
+**Sarah's Hand Embroidery** on YouTube
+- **[How to do Woven Spider Wheel](https://youtu.be/EDbRRM5o5OQ)** by 
+**Sarah's Hand Embroidery** on YouTube
+- **[How to do Chain Stitch](https://youtu.be/kzwzaom_KP0)** by 
+**Sarah's Hand Embroidery** on YouTube
+- **[How to do French Knots](https://youtu.be/mVqPzHw1x0w)** by 
+**Sarah's Hand Embroidery** on YouTube
+
+### How-to references used:
+
+- [Gradient overlay on top of images](https://www.geeksforgeeks.org/css-combine-background-image-with-gradient-overlay/)
+- [Fixing the responsiveness of embedded Google Maps](https://blog.hubspot.com/website/how-to-embed-google-map-in-html#:~:text=The%20default%20Google%20Maps%20embed,it%20in%20your%20HTML%20document.)
+- [Creating modals with Bootstrap](https://www.jqueryscript.net/demo/confirm-dialog-button-bootstrap/)
+- [Setting border colour in focused text fields](https://stackoverflow.com/questions/69901519/cant-change-border-color-when-input-field-is-active)
+- [W3 - visiting to consult the HTML/CSS documentation throughout working on the project](https://www.w3schools.com/css/)
+
+### Project guidance & assistance:
+
+- **My Mentor, Mitko Bachvarov**, and **UCP's Peter Wright** - thank you for your feedback and guidance!
+- **CI Tutor Support's Oisin** - thank you for the troubleshooting help!
+
+
+[FUTURE FEATuRES - UPDATE!!! - notes]
